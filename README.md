@@ -13,7 +13,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | stful  | Stateful Widget  |  Creates a Stateful widget           |
 | bld  | Build Method  |        Describes the part of the user interface represented by the widget.     |
 | init  | InitState  |  Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.           |
-| dis  | Disposel  | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.            |
+| dis  | Dispose  | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.            |
 | rasm |  Reassemble | Called whenever the application is reassembled during debugging, for example during hot reload.        |
 | dcd  | didChangeDependencies  |  Called when a dependency of this State object changes           |
 | duw  | didUpdateWidget   | Called whenever the widget configuration changes.  |
