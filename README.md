@@ -7,17 +7,17 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 - Supports complex widgets (Eg: Custom Clipper and Custom Paint)
 <br>
 
-|Shortcut   | Expanded   |  Description |   
-|---|---|---|---
-| stlss  | Stateless Widget   | Creates a Stateless widget   |   
-| stful  | Stateful Widget  |  Creates a Stateful widget |   
-|  bld | Build Method  | Describes the part of the user interface represented by the widget.  |   
-|init |  InitState | Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.  |  
-| dis  | Dispose  | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.  |  
-| rasm  | Reassemble  | Called whenever the application is reassembled during debugging, for example during hot reload.  |  
-|  dcd | didChangeDependencies |  Called when a dependency of this State object changes |  
-| duw  | didUpdateWidget  | Called whenever the widget configuration changes.  |  
-| cc  | Custom Clipper  |  Used for creating custom shapes |  
+| Shortcut  | Expanded  | Description |
+| ------------- | ------------- |------------ |
+| stlss  | Stateless Widget   |   Creates a Stateless widget  |
+| stful  | Stateful Widget  |  Creates a Stateful widget           |
+| bld  | Build Method  |        Describes the part of the user interface represented by the widget.     |
+| init  | InitState  |  Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.           |
+| dis  | Disposel  | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.            |
+| rasm |  Reassemble | Called whenever the application is reassembled during debugging, for example during hot reload.        |
+| dcd  | didChangeDependencies  |  Called when a dependency of this State object changes           |
+| duw  | didUpdateWidget   | Called whenever the widget configuration changes.  |
+| cc  | Custom Clipper  |  Used for creating custom shapes           |
 | cp  |  Custom Painter | Used for creating custom paint  |  
 
 <br>
