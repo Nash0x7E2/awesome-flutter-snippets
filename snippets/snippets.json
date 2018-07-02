@@ -1,0 +1,123 @@
+{
+    "Stateless Widget ": {
+        "prefix": "stlss",
+        "body": [
+            "class ${0:name} extends StatelessWidget {",
+            "\t@override",
+            "\tWidget build(BuildContext context) {",
+            "\t\treturn Container();",
+            "\t}",
+            "}"
+        ],
+        "description": "Creats a Stateless widget"
+    },
+    "Stateful Widget ": {
+        "prefix": "stful",
+        "body": [
+            "class ${1:name} extends StatefulWidget{",
+            "\t${1:name}State createState()=>  ${1:name}State();",
+            "}",
+            "\n",
+            "class ${1:index}State extends State<${1:index}> {",
+            "\t@override",
+            "\tWidget build(BuildContext context){",
+            "\t\treturn Container();",
+            "\t}",
+            "}"
+        ],
+        "description": "Creats a Stateful widget"
+    },
+    "Build Method": {
+        "prefix": "bld",
+        "body": [
+            "@override",
+            "Widget build(BuildContext context) {",
+            "\treturn ",
+            "}"
+        ],
+        "description": "Describes the part of the user interface represented by this widget."
+    },
+    "Custom Painter ": {
+        "prefix": "cp",
+        "body": [
+            "class ${0:name}Painter extends CustomPainter {",
+            "\n",
+            "\t@override",
+            "\tvoid paint(Canvas canvas, Size size) {",
+            "\t}",
+            "\n",
+            "\t@override",
+            "\tbool shouldRepaint(${0:name}Painter oldDelegate) => false;",
+            "\n",
+            "\t@override",
+            "\tbool shouldRebuildSemantics(${0:name}Painter oldDelegate) => false;",
+            "}"
+        ],
+        "description": "Used for creating custom paint"
+    },
+    "Custom Clipper ": {
+        "prefix": "cc",
+        "body": [
+            "class ${0:name}Clipper extends CustomClipper<Path> {",
+            "\n",
+            "\t@override",
+            "\tPath getClip(Size size) {",
+            "\t}",
+            "\n",
+            "\t@override",
+            "\tbool shouldReclip(CustomClipper<Path> oldClipper) => false;",
+            "}"
+        ],
+        "description": "Used for creating custom shapes"
+    },
+    "InitState ": {
+        "prefix": "init",
+        "body": [
+            "void initState() { ",
+            "\n",
+            "\tsuper.initState();",
+            "}"
+        ],
+        "description": "Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates."
+    },
+    "Dispose": {
+        "prefix": "dis",
+        "body": [
+            "@override",
+            "void dispose() { ",
+            "\tsuper.dispose();",
+            "}"
+        ],
+        "description": "Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again."
+    },
+    "Reassemble": {
+        "prefix": "rasm",
+        "body": [
+            "@override",
+            "void reassemble(){",
+            "\tsuper.reassemble();",
+            "}"
+        ],
+        "description": "Called whenever the application is reassembled during debugging, for example during hot reload."
+    },
+    "didChangeDependencies": {
+        "prefix": "dcd",
+        "body": [
+            "@override",
+            "void didChangeDependencies() {",
+            "\tsuper.didChangeDependencies();",
+            "}"
+        ],
+        "description": "Called when a dependency of this State object changes"
+    },
+    "didUpdateWidget": {
+        "prefix": "duw",
+        "body": [
+            "@override",
+            "void didUpdateWidget (${1:Type} ${2:oldWidget}) {",
+            "\tsuper.didUpdateWidget(${2:oldWidget});",
+            "}"
+        ],
+        "description": "Called whenever the widget configuration changes."
+    }
+}
