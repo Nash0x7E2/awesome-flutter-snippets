@@ -121,7 +121,7 @@
         "description": "Called whenever the widget configuration changes."
     },
     "ListView.Builder": {
-        "prefix": "lsvb",
+        "prefix": "lsb",
         "body": [
             "ListView.builder(",
             "\t\titemCount: 1,",
@@ -131,5 +131,15 @@
             "),"
         ],
         "description": "Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null `itemCount` improves the ability of the [ListView] to estimate the maximum scroll extent."
+    },
+    "Custom Scroll View": {
+        "prefix": "csv",
+        "body": [
+            "CustomScrollView(",
+            "\tslivers: <Widget>[",
+            " \t],",
+            "),"
+        ],
+        "description": "Creates a [ScrollView] that creates custom scroll effects using slivers. If the [primary] argument is true, the [controller] must be null."
     }
 }
