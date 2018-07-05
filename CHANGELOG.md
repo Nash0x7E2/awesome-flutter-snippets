@@ -1,7 +1,14 @@
-# Change Log
-All notable changes to the "awesome-flutter-snippets" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+# Changelog
+All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
-- Initial release
+
+## 1.0.1 
+Added support for: 
+-  Stream Builder 
+-  Animated Builder 
+-  Custom Scroll View 
+-  Listview.Builder
+
+## 1.0.0
+- Initial Relase 
