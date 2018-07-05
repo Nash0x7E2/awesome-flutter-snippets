@@ -119,5 +119,17 @@
             "}"
         ],
         "description": "Called whenever the widget configuration changes."
+    },
+    "ListView.Builder": {
+        "prefix": "lsvb",
+        "body": [
+            "ListView.builder(",
+            "\t\titemCount: 1,",
+            "\t\titemBuilder: (BuildContext context, int index) {",
+            "\t\treturn Container();",
+            "\t},",
+            "),"
+        ],
+        "description": "Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null `itemCount` improves the ability of the [ListView] to estimate the maximum scroll extent."
     }
 }
