@@ -20,13 +20,17 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | cc       | Custom Clipper        | Used for creating custom shapes                                                                                                                                                         |
 | cp       | Custom Painter        | Used for creating custom paint                                                                                                                                                          |
 | lsb      | ListView.Builder      | Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null `itemCount` improves the ability of the `ListView` to estimate the maximum scroll extent. |
-| csv      | Custom Scroll View    | Creates a `ScrollView` that creates custom scroll effects using slivers. If the `primary` argument is true, the `controller` must be null.                                              |
+| csv      | CustomScrollView      | Creates a `ScrollView` that creates custom scroll effects using slivers. If the `primary` argument is true, the `controller` must be null.                                              |
+| stb      | StreamBuilder         | Creates a new `StreamBuilder` that builds itself based on the latest snapshot of interaction with the specified `stream`                                                                |
+| abldr    | AnimatedBuilder       | Creates an Animated Builder. The widget specified to `child` is passed to the `builder`                                                                                                 |
 
 <br>
 
 ## Requirements
 Vscode: "^1.24.0"
+
 <br>
+
 ## Known Issues
 At this time, there are no known issues. If you discover a bug or would like to see a shortcut added, please create a pull request at our GitHub page. 
 

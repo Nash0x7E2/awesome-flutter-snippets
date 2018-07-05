@@ -140,6 +140,32 @@
             " \t],",
             "),"
         ],
-        "description": "Creates a [ScrollView] that creates custom scroll effects using slivers. If the [primary] argument is true, the [controller] must be null."
+        "description": "Creates a `ScrollView` that creates custom scroll effects using slivers. If the `primary` argument is true, the `controller` must be null."
+    },
+    "Stream Builder": {
+        "prefix": "stb",
+        "body": [
+            "StreamBuilder(",
+            "\tstream: ${1:stream} ,",
+            "\tinitialData: ${2:initialData} ,",
+            "\tbuilder: (BuildContext context, AsyncSnapshot snapshot){",
+            "\t\treturn ${3:Container();}",
+            "\t},",
+            "),"
+        ],
+        "description": "Creates a new `StreamBuilder` that builds itself based on the latest snapshot of interaction with the specified `stream`"
+    },
+    "Animated Builder": {
+        "prefix": "abldr",
+        "body": [
+            "AnimatedBuilder(",
+            "\tanimation: ${1:animation},",
+            "\tchild: ${2:child},",
+            "\tbuilder: (BuildContext context, Widget child) {",
+            "\t\treturn ${3:Container();}",
+            "\t},",
+            "),"
+        ],
+        "description": "Creates an Animated Builder. The widget specified to `child` is passed to the `builder` "
     }
 }
