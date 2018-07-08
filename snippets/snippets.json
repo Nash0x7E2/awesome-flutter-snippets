@@ -184,10 +184,21 @@
         "body": [
             "OrientationBuilder(",
             "\tbuilder: (BuildContext context, Orientation orientation) {",
-            "\t\treturn Container();",
+            "\t\treturn {1:Container();}",
             "\t},",
             "),"
         ],
         "description": "Creates a builder which allows for the orientation of the device to be specified and referenced"
+    },
+    "Layout Builder": {
+        "prefix": "laybldr",
+        "body": [
+            "LayoutBuilder(",
+            "\tbuilder: (BuildContext context, BoxConstraints constraints) {",
+            "\t\treturn {1:Container();}",
+            "\t},",
+            "),"
+        ],
+        "description": "Similar to the Builder widget except that the framework calls the builder function at layout time and provides the parent widget's constraints."
     }
 }

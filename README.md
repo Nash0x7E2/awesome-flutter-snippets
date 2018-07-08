@@ -25,6 +25,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | abldr      | Animated Builder      | Creates an Animated Builder. The widget specified to `child` is passed to the `builder`                                                                                                 |
 | `stflbldr` | Stateful Builder      | Creates a widget that both has state and delegates its build to a callback. Useful for rebuilding specific sections of the widget tree.                                                 |
 | `oribldr`  | Orientation Builder   | Creates a builder which allows for the orientation of the device to be specified and referenced                                                                                         |
+| `laybldr`  | Layout Builder        | Similar to the `Builder` widget except that the framework calls the builder function at layout time and provides the parent widget's constraints.                                       |
 
 <br>
 
