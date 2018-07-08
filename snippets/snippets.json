@@ -178,5 +178,16 @@
             "),"
         ],
         "description": "Creates a widget that both has state and delegates its build to a callback. Useful for rebuilding specific sections of the widget tree."
+    },
+    "Oriantation Builder": {
+        "prefix": "oribldr",
+        "body": [
+            "OrientationBuilder(",
+            "\tbuilder: (BuildContext context, Orientation orientation) {",
+            "\t\treturn Container();",
+            "\t},",
+            "),"
+        ],
+        "description": "Creates a builder which allows for the orientation of the device to be specified and referenced"
     }
 }
