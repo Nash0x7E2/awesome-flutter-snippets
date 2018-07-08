@@ -200,5 +200,15 @@
             "),"
         ],
         "description": "Similar to the Builder widget except that the framework calls the builder function at layout time and provides the parent widget's constraints."
+    },
+    "Single Child ScrollView": {
+        "prefix": "scsv",
+        "body": [
+            "SingleChildScrollView(",
+            "\tcontroller: {1:controller,}",
+            "\tchild: {2:Column(),}",
+            "),"
+        ],
+        "description": "Creates a scroll view with a single child"
     }
 }
