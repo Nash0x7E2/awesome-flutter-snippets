@@ -167,5 +167,16 @@
             "),"
         ],
         "description": "Creates an Animated Builder. The widget specified to `child` is passed to the `builder` "
+    },
+    "Stateful Builder": {
+        "prefix": "stflbldr",
+        "body": [
+            "StatefulBuilder(",
+            "\tbuilder: (BuildContext context, setState) {",
+            "\t\treturn {1:Container();}",
+            "\t},",
+            "),"
+        ],
+        "description": "Creates a widget that both has state and delegates its build to a callback. Useful for rebuilding specific sections of the widget tree."
     }
 }
