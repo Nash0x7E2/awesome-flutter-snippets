@@ -124,9 +124,9 @@
         "prefix": "lsb",
         "body": [
             "ListView.builder(",
-            "\t\titemCount: 1,",
+            "\t\titemCount: ${1:1},",
             "\t\titemBuilder: (BuildContext context, int index) {",
-            "\t\treturn Container();",
+            "\t\treturn ${2:Container()};",
             "\t},",
             "),"
         ],
@@ -173,7 +173,7 @@
         "body": [
             "StatefulBuilder(",
             "\tbuilder: (BuildContext context, setState) {",
-            "\t\treturn {1:Container();}",
+            "\t\treturn ${1:Container();}",
             "\t},",
             "),"
         ],
@@ -184,7 +184,7 @@
         "body": [
             "OrientationBuilder(",
             "\tbuilder: (BuildContext context, Orientation orientation) {",
-            "\t\treturn {1:Container();}",
+            "\t\treturn ${1:Container();}",
             "\t},",
             "),"
         ],
@@ -195,7 +195,7 @@
         "body": [
             "LayoutBuilder(",
             "\tbuilder: (BuildContext context, BoxConstraints constraints) {",
-            "\t\treturn {1:Container();}",
+            "\t\treturn ${1:Container();}",
             "\t},",
             "),"
         ],
@@ -205,10 +205,23 @@
         "prefix": "scsv",
         "body": [
             "SingleChildScrollView(",
-            "\tcontroller: {1:controller,}",
-            "\tchild: {2:Column(),}",
+            "\tcontroller: ${1:controller,}",
+            "\tchild: ${2:Column(),}",
             "),"
         ],
         "description": "Creates a scroll view with a single child"
+    },
+    "Future Builder": {
+        "prefix": "ftbldr",
+        "body": [
+            "FutureBuilder(",
+            "\tfuture: ${1:Future},",
+            "\tinitialData: ${2:InitialData},",
+            "\tbuilder: (BuildContext context, AsyncSnapshot snapshot) {",
+            "\t\treturn ${3:Container();}",
+            "\t},",
+            "),"
+        ],
+        "description": "Creates a Future Builder. This builds itself based on the latest snapshot of interaction with a Future."
     }
 }
