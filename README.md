@@ -28,6 +28,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `laybldr`  | Layout Builder           | Similar to the `Builder` widget except that the framework calls the builder function at layout time and provides the parent widget's constraints.                                       |
 | `scsv`     | Single Child Scroll View | Creates a scroll view with a single child                                                                                                                                               |
 | `ftbldr`   | Future Builder           | Creates a Future Builder. This builds itself based on the latest snapshot of interaction with a Future.                                                                                 |
+| `nosm`   | No Such Method           | This method is invoked when a non-existent method or property is accessed. |
 
 <br>
 
