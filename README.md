@@ -31,6 +31,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `nosm`   | No Such Method           | This method is invoked when a non-existent method or property is accessed. |
 | `inhwdgt`   | Inherited Widget          | Class used to propagate information down the widget tree. |
 | `mntd`   | Mounted  | Whether this State object is currently in a tree. |
+| `snk`   | Sink  | A Sink is the input of a stream. |
 
 <br>
 
