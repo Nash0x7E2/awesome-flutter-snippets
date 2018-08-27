@@ -240,7 +240,7 @@
             "class ${1:Name} extends InheritedWidget {",
             "\t${1:Name}({Key key, this.child}) : super(key: key, child: child);",
             "",
-            "\tfinal Widget child;",                
+            "\tfinal Widget child;",
             "",
             "\tstatic ${1:Name} of(BuildContext context) {",
             "\t\treturn (context.inheritFromWidgetOfExactType(${1:Name})as ${1:Name});",
@@ -266,10 +266,17 @@
     "Sink": {
         "prefix": "snk",
         "body": [
-           "Sink<${1:type}> get ${2:name} => _${2:name}Controller.sink;",
+            "Sink<${1:type}> get ${2:name} => _${2:name}Controller.sink;",
             "final _${2:name}Controller = StreamController<${1:type}>();"
         ],
         "description": "A Sink is the input of a stream."
+    },
+    "Stream": {
+        "prefix": "strm",
+        "body": [
+            "Stream<${1:type}> get ${2:name} => _${2:name}Controller.stream;",
+            "final _${2:name}Controller = StreamController<${1:type}>();"
+        ],
+        "description": "A source of asynchronous data events. A stream can be of any data type <T>"
     }
 }
-

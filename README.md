@@ -32,6 +32,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `inhwdgt`   | Inherited Widget          | Class used to propagate information down the widget tree. |
 | `mntd`   | Mounted  | Whether this State object is currently in a tree. |
 | `snk`   | Sink  | A Sink is the input of a stream. |
+| `strm`   | Stream  | A source of asynchronous data events. A stream can be of any data type. |
 
 <br>
 
