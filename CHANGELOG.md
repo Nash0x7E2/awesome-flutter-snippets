@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 ## [Changes]
 
+### 1.0.3
+Added support for: 
+-  Stream
+-  Sink
+-  Inherited Widget
+-  Mounted
+-  NoSuchMethod
+
+
 ### 1.0.2 
 Added support for: 
 -  Stateful Builder

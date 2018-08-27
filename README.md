@@ -46,6 +46,15 @@ At this time, there are no known issues. If you discover a bug or would like to 
 
 ## Release Notes
 
+### 1.0.3
+Added support for: 
+-  Stream
+-  Sink
+-  Inherited Widget
+-  Mounted
+-  NoSuchMethod
+
+
 ### 1.0.2 
 Added support for: 
 -  Stateful Builder
