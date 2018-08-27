@@ -29,6 +29,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `scsv`     | Single Child Scroll View | Creates a scroll view with a single child                                                                                                                                               |
 | `ftbldr`   | Future Builder           | Creates a Future Builder. This builds itself based on the latest snapshot of interaction with a Future.                                                                                 |
 | `nosm`   | No Such Method           | This method is invoked when a non-existent method or property is accessed. |
+| `inhwdgt`   | Inherited Widget          | Class used to propagate information down the widget tree. |
 
 <br>
 

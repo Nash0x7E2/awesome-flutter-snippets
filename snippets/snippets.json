@@ -233,7 +233,30 @@
             "}"
         ],
         "description": "This method is invoked when a non-existent method or property is accessed."
+    },
+    "Inherited Widget": {
+        "prefix": "inhwdgt",
+        "body": [
+            "class ${1:Name} extends InheritedWidget {",
+            "\t${1:Name}({Key key, this.child}) : super(key: key, child: child);",
+            "",
+            "\tfinal Widget child;",                
+            "",
+            "\tstatic ${1:Name} of(BuildContext context) {",
+            "\t\treturn (context.inheritFromWidgetOfExactType(${1:Name})as ${1:Name});",
+            "\t}",
+            "",
+            "\t@override",
+            "\tbool updateShouldNotify( ${1:Name} oldWidget) {",
+            "\treturn ${2:true};",
+            "\t}",
+            "}"
+        ],
+        "description": "Class used to propagate information down the widget tree"
     }
 
 
 }
+
+
+  
