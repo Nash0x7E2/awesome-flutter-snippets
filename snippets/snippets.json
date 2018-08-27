@@ -253,10 +253,14 @@
             "}"
         ],
         "description": "Class used to propagate information down the widget tree"
+    },
+    "Mounted": {
+        "prefix": "mntd",
+        "body": [
+            "@override",
+            "bool get mounted {",
+            "}"
+        ],
+        "description": "Whether this State object is currently in a tree."
     }
-
-
 }
-
-
-  
