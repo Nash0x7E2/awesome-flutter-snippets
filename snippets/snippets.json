@@ -1,31 +1,30 @@
 {
-    "Stateless Widget ": {
+    "Stateless Widget": {
         "prefix": "stlss",
         "body": [
-            "class ${0:name} extends StatelessWidget {",
+            "class ${1:name} extends StatelessWidget {",
             "\t@override",
             "\tWidget build(BuildContext context) {",
-            "\t\treturn Container();",
+            "\t\treturn ${2:Container}();",
             "\t}",
             "}"
         ],
-        "description": "Creats a Stateless widget"
+        "description": "Create a Stateless widget"
     },
-    "Stateful Widget ": {
+    "Stateful Widget": {
         "prefix": "stful",
         "body": [
-            "class ${1:name} extends StatefulWidget{",
-            "\t${1:name}State createState()=>  ${1:name}State();",
-            "}",
-            "\n",
-            "class ${1:index}State extends State<${1:index}> {",
+            "class ${1:name} extends StatefulWidget {",
+            "\t_${1:WidgetName}State createState() => _${1:WidgetName}State();",
+            "}\n",
+            "class _${1:index}State extends State<${1:index}> {",
             "\t@override",
-            "\tWidget build(BuildContext context){",
-            "\t\treturn Container();",
+            "\tWidget build(BuildContext context) {",
+            "\t\treturn ${2:Container}();",
             "\t}",
             "}"
         ],
-        "description": "Creats a Stateful widget"
+        "description": "Create a Stateful widget"
     },
     "Build Method": {
         "prefix": "bld",
