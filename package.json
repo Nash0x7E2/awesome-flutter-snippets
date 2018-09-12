@@ -2,7 +2,7 @@
     "name": "awesome-flutter-snippets",
     "displayName": "Awesome Flutter Snippets",
     "description": "Awesome Flutter Snippets is a collection snippets and shortcuts for commonly used Flutter functions and classes",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "icon": "logo.png",
     "publisher": "Nash",
     "engines": {

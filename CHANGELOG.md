@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Changes]
 
+### 1.0.4
+- Fixed formatting 
+- Removed unused tabs
+- Corrected spelling errors 
+
 ### 1.0.3
 Added support for: 
 -  Stream

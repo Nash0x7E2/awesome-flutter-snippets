@@ -46,6 +46,12 @@ At this time, there are no known issues. If you discover a bug or would like to 
 
 ## Release Notes
 
+### 1.0.4
+- Fixed formatting 
+- Removed unused tabs
+- Corrected spelling errors 
+
+
 ### 1.0.3
 Added support for: 
 -  Stream
