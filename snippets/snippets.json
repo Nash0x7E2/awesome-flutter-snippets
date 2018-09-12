@@ -3,10 +3,10 @@
         "prefix": "stlss",
         "body": [
             "class ${1:name} extends StatelessWidget {",
-            "\t@override",
-            "\tWidget build(BuildContext context) {",
-            "\t\treturn ${2:Container}();",
-            "\t}",
+            "  @override",
+            "  Widget build(BuildContext context) {",
+            "    treturn ${2:Container}();",
+            "  }",
             "}"
         ],
         "description": "Create a Stateless widget"
@@ -15,13 +15,13 @@
         "prefix": "stful",
         "body": [
             "class ${1:name} extends StatefulWidget {",
-            "\t_${1:WidgetName}State createState() => _${1:WidgetName}State();",
+            "  _${1:WidgetName}State createState() => _${1:WidgetName}State();",
             "}\n",
             "class _${1:index}State extends State<${1:index}> {",
-            "\t@override",
-            "\tWidget build(BuildContext context) {",
-            "\t\treturn ${2:Container}();",
-            "\t}",
+            "  @override",
+            "  Widget build(BuildContext context) {",
+            "    return ${2:Container}();",
+            "  }",
             "}"
         ],
         "description": "Create a Stateful widget"
@@ -31,7 +31,7 @@
         "body": [
             "@override",
             "Widget build(BuildContext context) {",
-            "\treturn ",
+            "  return ",
             "}"
         ],
         "description": "Describes the part of the user interface represented by this widget."
@@ -41,15 +41,15 @@
         "body": [
             "class ${0:name}Painter extends CustomPainter {",
             "\n",
-            "\t@override",
-            "\tvoid paint(Canvas canvas, Size size) {",
-            "\t}",
+            "  @override",
+            "  void paint(Canvas canvas, Size size) {",
+            "  }",
             "\n",
-            "\t@override",
-            "\tbool shouldRepaint(${0:name}Painter oldDelegate) => false;",
+            "  @override",
+            "  bool shouldRepaint(${0:name}Painter oldDelegate) => false;",
             "\n",
-            "\t@override",
-            "\tbool shouldRebuildSemantics(${0:name}Painter oldDelegate) => false;",
+            "  @override",
+            "  bool shouldRebuildSemantics(${0:name}Painter oldDelegate) => false;",
             "}"
         ],
         "description": "Used for creating custom paint"
@@ -59,12 +59,12 @@
         "body": [
             "class ${0:name}Clipper extends CustomClipper<Path> {",
             "\n",
-            "\t@override",
-            "\tPath getClip(Size size) {",
-            "\t}",
+            "  @override",
+            "  Path getClip(Size size) {",
+            "  }",
             "\n",
-            "\t@override",
-            "\tbool shouldReclip(CustomClipper<Path> oldClipper) => false;",
+            "  @override",
+            "  bool shouldReclip(CustomClipper<Path> oldClipper) => false;",
             "}"
         ],
         "description": "Used for creating custom shapes"
@@ -73,8 +73,8 @@
         "prefix": "init",
         "body": [
             "void initState() { ",
+            "  super.initState();",
             "\n",
-            "\tsuper.initState();",
             "}"
         ],
         "description": "Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates."
@@ -84,7 +84,8 @@
         "body": [
             "@override",
             "void dispose() { ",
-            "\tsuper.dispose();",
+            "\n",
+            "  super.dispose();",
             "}"
         ],
         "description": "Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again."
@@ -94,7 +95,7 @@
         "body": [
             "@override",
             "void reassemble(){",
-            "\tsuper.reassemble();",
+            "  super.reassemble();",
             "}"
         ],
         "description": "Called whenever the application is reassembled during debugging, for example during hot reload."
@@ -104,7 +105,7 @@
         "body": [
             "@override",
             "void didChangeDependencies() {",
-            "\tsuper.didChangeDependencies();",
+            "  super.didChangeDependencies();",
             "}"
         ],
         "description": "Called when a dependency of this State object changes"
@@ -114,7 +115,7 @@
         "body": [
             "@override",
             "void didUpdateWidget (${1:Type} ${2:oldWidget}) {",
-            "\tsuper.didUpdateWidget(${2:oldWidget});",
+            "  super.didUpdateWidget(${2:oldWidget});",
             "}"
         ],
         "description": "Called whenever the widget configuration changes."
@@ -123,10 +124,10 @@
         "prefix": "lsb",
         "body": [
             "ListView.builder(",
-            "\t\titemCount: ${1:1},",
-            "\t\titemBuilder: (BuildContext context, int index) {",
-            "\t\treturn ${2:Container()};",
-            "\t},",
+            "  itemCount: ${1:1},",
+            "  itemBuilder: (BuildContext context, int index) {",
+            "  return ${2:Container()};",
+            " },",
             "),"
         ],
         "description": "Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null `itemCount` improves the ability of the [ListView] to estimate the maximum scroll extent."
@@ -135,8 +136,8 @@
         "prefix": "csv",
         "body": [
             "CustomScrollView(",
-            "\tslivers: <Widget>[",
-            " \t],",
+            "  slivers: <Widget>[",
+            "  ],",
             "),"
         ],
         "description": "Creates a `ScrollView` that creates custom scroll effects using slivers. If the `primary` argument is true, the `controller` must be null."
@@ -145,11 +146,11 @@
         "prefix": "stb",
         "body": [
             "StreamBuilder(",
-            "\tstream: ${1:stream} ,",
-            "\tinitialData: ${2:initialData} ,",
-            "\tbuilder: (BuildContext context, AsyncSnapshot snapshot){",
-            "\t\treturn ${3:Container();}",
-            "\t},",
+            "  stream: ${1:stream} ,",
+            "  initialData: ${2:initialData} ,",
+            "  builder: (BuildContext context, AsyncSnapshot snapshot){",
+            "    return ${3:Container();}",
+            "  },",
             "),"
         ],
         "description": "Creates a new `StreamBuilder` that builds itself based on the latest snapshot of interaction with the specified `stream`"
@@ -158,11 +159,11 @@
         "prefix": "abldr",
         "body": [
             "AnimatedBuilder(",
-            "\tanimation: ${1:animation},",
-            "\tchild: ${2:child},",
-            "\tbuilder: (BuildContext context, Widget child) {",
-            "\t\treturn ${3:Container();}",
-            "\t},",
+            "  animation: ${1:animation},",
+            "  child: ${2:child},",
+            "  builder: (BuildContext context, Widget child) {",
+            "    return ${3:Container();}",
+            "  },",
             "),"
         ],
         "description": "Creates an Animated Builder. The widget specified to `child` is passed to the `builder` "
@@ -171,9 +172,9 @@
         "prefix": "stflbldr",
         "body": [
             "StatefulBuilder(",
-            "\tbuilder: (BuildContext context, setState) {",
-            "\t\treturn ${1:Container();}",
-            "\t},",
+            "  builder: (BuildContext context, setState) {",
+            "    return ${1:Container();}",
+            "  },",
             "),"
         ],
         "description": "Creates a widget that both has state and delegates its build to a callback. Useful for rebuilding specific sections of the widget tree."
@@ -182,9 +183,9 @@
         "prefix": "oribldr",
         "body": [
             "OrientationBuilder(",
-            "\tbuilder: (BuildContext context, Orientation orientation) {",
-            "\t\treturn ${1:Container();}",
-            "\t},",
+            "  builder: (BuildContext context, Orientation orientation) {",
+            "    return ${1:Container();}",
+            "  },",
             "),"
         ],
         "description": "Creates a builder which allows for the orientation of the device to be specified and referenced"
@@ -193,9 +194,9 @@
         "prefix": "laybldr",
         "body": [
             "LayoutBuilder(",
-            "\tbuilder: (BuildContext context, BoxConstraints constraints) {",
-            "\t\treturn ${1:Container();}",
-            "\t},",
+            "  builder: (BuildContext context, BoxConstraints constraints) {",
+            "   return ${1:Container();}",
+            "  },",
             "),"
         ],
         "description": "Similar to the Builder widget except that the framework calls the builder function at layout time and provides the parent widget's constraints."
@@ -204,8 +205,8 @@
         "prefix": "scsv",
         "body": [
             "SingleChildScrollView(",
-            "\tcontroller: ${1:controller,}",
-            "\tchild: ${2:Column(),}",
+            "  controller: ${1:controller,}",
+            "  child: ${2:Column(),}",
             "),"
         ],
         "description": "Creates a scroll view with a single child"
@@ -214,11 +215,11 @@
         "prefix": "ftbldr",
         "body": [
             "FutureBuilder(",
-            "\tfuture: ${1:Future},",
-            "\tinitialData: ${2:InitialData},",
-            "\tbuilder: (BuildContext context, AsyncSnapshot snapshot) {",
-            "\t\treturn ${3:Container();}",
-            "\t},",
+            "  future: ${1:Future},",
+            "  initialData: ${2:InitialData},",
+            "  builder: (BuildContext context, AsyncSnapshot snapshot) {",
+            "    return ${3:Container();}",
+            "  },",
             "),"
         ],
         "description": "Creates a Future Builder. This builds itself based on the latest snapshot of interaction with a Future."
@@ -228,7 +229,7 @@
         "body": [
             "@override",
             "dynamic noSuchMethod(Invocation invocation) {",
-            "\t ${1:}",
+            "  ${1:}",
             "}"
         ],
         "description": "This method is invoked when a non-existent method or property is accessed."
@@ -237,18 +238,18 @@
         "prefix": "inhwdgt",
         "body": [
             "class ${1:Name} extends InheritedWidget {",
-            "\t${1:Name}({Key key, this.child}) : super(key: key, child: child);",
+            "  ${1:Name}({Key key, this.child}) : super(key: key, child: child);",
             "",
-            "\tfinal Widget child;",
+            "  final Widget child;",
             "",
-            "\tstatic ${1:Name} of(BuildContext context) {",
-            "\t\treturn (context.inheritFromWidgetOfExactType(${1:Name})as ${1:Name});",
-            "\t}",
+            "  static ${1:Name} of(BuildContext context) {",
+            "    return (context.inheritFromWidgetOfExactType(${1:Name})as ${1:Name});",
+            "  }",
             "",
-            "\t@override",
-            "\tbool updateShouldNotify( ${1:Name} oldWidget) {",
-            "\treturn ${2:true};",
-            "\t}",
+            "  @override",
+            "  bool updateShouldNotify( ${1:Name} oldWidget) {",
+            "    return ${2:true};",
+            "  }",
             "}"
         ],
         "description": "Class used to propagate information down the widget tree"
