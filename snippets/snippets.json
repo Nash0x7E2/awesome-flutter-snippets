@@ -22,7 +22,9 @@
             "class _${1:index}State extends State<${1:index}> {",
             "  @override",
             "  Widget build(BuildContext context) {",
-            "    return ${2:Container}();",
+            "    return Container(",
+            "       child: ${2:child}",
+            "    );",
             "  }",
             "}"
         ],
@@ -33,7 +35,9 @@
         "body": [
             "@override",
             "Widget build(BuildContext context) {",
-            "  return ",
+            "  return Container(",
+            "    child: ${0:child}",
+            "  );",
             "}"
         ],
         "description": "Describes the part of the user interface represented by this widget."
