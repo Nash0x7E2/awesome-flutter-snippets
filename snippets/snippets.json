@@ -46,14 +46,14 @@
         "prefix": "cp",
         "body": [
             "class ${0:name}Painter extends CustomPainter {",
-            "\n",
+            "",
             "  @override",
             "  void paint(Canvas canvas, Size size) {",
             "  }",
-            "\n",
+            "",
             "  @override",
             "  bool shouldRepaint(${0:name}Painter oldDelegate) => false;",
-            "\n",
+            "",
             "  @override",
             "  bool shouldRebuildSemantics(${0:name}Painter oldDelegate) => false;",
             "}"
@@ -64,11 +64,11 @@
         "prefix": "cc",
         "body": [
             "class ${0:name}Clipper extends CustomClipper<Path> {",
-            "\n",
+            "",
             "  @override",
             "  Path getClip(Size size) {",
             "  }",
-            "\n",
+            "",
             "  @override",
             "  bool shouldReclip(CustomClipper<Path> oldClipper) => false;",
             "}"
@@ -80,7 +80,7 @@
         "body": [
             "void initState() { ",
             "  super.initState();",
-            "\n",
+            "  ${0:}",
             "}"
         ],
         "description": "Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates."
@@ -90,7 +90,7 @@
         "body": [
             "@override",
             "void dispose() { ",
-            "\n",
+            "  ${0:}",
             "  super.dispose();",
             "}"
         ],
@@ -102,6 +102,7 @@
             "@override",
             "void reassemble(){",
             "  super.reassemble();",
+            "  ${0:}",
             "}"
         ],
         "description": "Called whenever the application is reassembled during debugging, for example during hot reload."
