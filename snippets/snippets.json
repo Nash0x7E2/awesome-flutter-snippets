@@ -113,6 +113,7 @@
             "@override",
             "void didChangeDependencies() {",
             "  super.didChangeDependencies();",
+            "  ${0:}",
             "}"
         ],
         "description": "Called when a dependency of this State object changes"
@@ -123,6 +124,7 @@
             "@override",
             "void didUpdateWidget (${1:Type} ${2:oldWidget}) {",
             "  super.didUpdateWidget(${2:oldWidget});",
+            "  ${0:}",
             "}"
         ],
         "description": "Called whenever the widget configuration changes."
@@ -133,7 +135,9 @@
             "ListView.builder(",
             "  itemCount: ${1:1},",
             "  itemBuilder: (BuildContext context, int index) {",
-            "  return ${2:Container()};",
+            "  return Container(",
+            "    child: ${2:child}",
+            "  );",
             " },",
             "),"
         ],
@@ -156,7 +160,9 @@
             "  stream: ${1:stream} ,",
             "  initialData: ${2:initialData} ,",
             "  builder: (BuildContext context, AsyncSnapshot snapshot){",
-            "    return ${3:Container();}",
+            "    return Container(",
+            "      child: ${3:child}",
+            "    );",
             "  },",
             "),"
         ],
@@ -169,7 +175,9 @@
             "  animation: ${1:animation},",
             "  child: ${2:child},",
             "  builder: (BuildContext context, Widget child) {",
-            "    return ${3:Container();}",
+            "    return Container(",
+            "      child: ${3:child}",
+            "    );",
             "  },",
             "),"
         ],
@@ -180,7 +188,9 @@
         "body": [
             "StatefulBuilder(",
             "  builder: (BuildContext context, setState) {",
-            "    return ${1:Container();}",
+            "    return Container(",
+            "      child: ${3:child}",
+            "    );",
             "  },",
             "),"
         ],
@@ -191,7 +201,9 @@
         "body": [
             "OrientationBuilder(",
             "  builder: (BuildContext context, Orientation orientation) {",
-            "    return ${1:Container();}",
+            "    return Container(",
+            "      child: ${3:child}",
+            "    );",
             "  },",
             "),"
         ],
@@ -202,7 +214,9 @@
         "body": [
             "LayoutBuilder(",
             "  builder: (BuildContext context, BoxConstraints constraints) {",
-            "   return ${1:Container();}",
+            "    return Container(",
+            "      child: ${3:child}",
+            "    );",
             "  },",
             "),"
         ],
@@ -213,7 +227,7 @@
         "body": [
             "SingleChildScrollView(",
             "  controller: ${1:controller,}",
-            "  child: ${2:Column(),}",
+            "  child: Column(${0:}),}",
             "),"
         ],
         "description": "Creates a scroll view with a single child"
@@ -225,7 +239,9 @@
             "  future: ${1:Future},",
             "  initialData: ${2:InitialData},",
             "  builder: (BuildContext context, AsyncSnapshot snapshot) {",
-            "    return ${3:Container();}",
+            "    return Container(",
+            "      child: ${3:child}",
+            "    );",
             "  },",
             "),"
         ],
