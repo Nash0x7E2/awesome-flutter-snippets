@@ -6,7 +6,7 @@
             "  @override",
             "  Widget build(BuildContext context) {",
             "    return Container(",
-            "      child: ${2:child}",
+            "      child: ${2:child},",
             "    );",
             "  }",
             "}"
@@ -23,7 +23,7 @@
             "  @override",
             "  Widget build(BuildContext context) {",
             "    return Container(",
-            "       child: ${2:child}",
+            "       child: ${2:child},",
             "    );",
             "  }",
             "}"
@@ -36,7 +36,7 @@
             "@override",
             "Widget build(BuildContext context) {",
             "  return Container(",
-            "    child: ${0:child}",
+            "    child: ${0:child},",
             "  );",
             "}"
         ],
@@ -136,7 +136,7 @@
             "  itemCount: ${1:1},",
             "  itemBuilder: (BuildContext context, int index) {",
             "  return Container(",
-            "    child: ${2:child}",
+            "    child: ${2:child},",
             "  );",
             " },",
             "),"
@@ -161,7 +161,7 @@
             "  initialData: ${2:initialData} ,",
             "  builder: (BuildContext context, AsyncSnapshot snapshot){",
             "    return Container(",
-            "      child: ${3:child}",
+            "      child: ${3:child},",
             "    );",
             "  },",
             "),"
@@ -176,7 +176,7 @@
             "  child: ${2:child},",
             "  builder: (BuildContext context, Widget child) {",
             "    return Container(",
-            "      child: ${3:child}",
+            "      child: ${3:child},",
             "    );",
             "  },",
             "),"
@@ -189,7 +189,7 @@
             "StatefulBuilder(",
             "  builder: (BuildContext context, setState) {",
             "    return Container(",
-            "      child: ${3:child}",
+            "      child: ${3:child},",
             "    );",
             "  },",
             "),"
@@ -202,7 +202,7 @@
             "OrientationBuilder(",
             "  builder: (BuildContext context, Orientation orientation) {",
             "    return Container(",
-            "      child: ${3:child}",
+            "      child: ${3:child},",
             "    );",
             "  },",
             "),"
@@ -215,7 +215,7 @@
             "LayoutBuilder(",
             "  builder: (BuildContext context, BoxConstraints constraints) {",
             "    return Container(",
-            "      child: ${3:child}",
+            "      child: ${3:child},",
             "    );",
             "  },",
             "),"
@@ -227,7 +227,10 @@
         "body": [
             "SingleChildScrollView(",
             "  controller: ${1:controller,}",
-            "  child: Column(${0:}),}",
+            "  child: Column(",
+            "    ${0:}",
+            "  ),",
+            " }",
             "),"
         ],
         "description": "Creates a scroll view with a single child"
@@ -240,7 +243,7 @@
             "  initialData: ${2:InitialData},",
             "  builder: (BuildContext context, AsyncSnapshot snapshot) {",
             "    return Container(",
-            "      child: ${3:child}",
+            "      child: ${3:child},",
             "    );",
             "  },",
             "),"
