@@ -133,9 +133,7 @@
             "ListView.builder(",
             "  itemCount: ${1:1},",
             "  itemBuilder: (BuildContext context, int index) {",
-            "  return Container(",
-            "    child: ${2:child},",
-            "  );",
+            "  return ${2:};",
             " },",
             "),"
         ],
@@ -173,9 +171,7 @@
             "  animation: ${1:animation},",
             "  child: ${2:child},",
             "  builder: (BuildContext context, Widget child) {",
-            "    return Container(",
-            "      child: ${3:child},",
-            "    );",
+            "    return ${3:};",
             "  },",
             "),"
         ],
@@ -186,9 +182,7 @@
         "body": [
             "StatefulBuilder(",
             "  builder: (BuildContext context, setState) {",
-            "    return Container(",
-            "      child: ${3:child},",
-            "    );",
+            "    return ${0:};",
             "  },",
             "),"
         ],
@@ -212,9 +206,7 @@
         "body": [
             "LayoutBuilder(",
             "  builder: (BuildContext context, BoxConstraints constraints) {",
-            "    return Container(",
-            "      child: ${3:child},",
-            "    );",
+            "    return ${0:};",
             "  },",
             "),"
         ],
@@ -240,9 +232,7 @@
             "  future: ${1:Future},",
             "  initialData: ${2:InitialData},",
             "  builder: (BuildContext context, AsyncSnapshot snapshot) {",
-            "    return Container(",
-            "      child: ${3:child},",
-            "    );",
+            "    return ${3:};",
             "  },",
             "),"
         ],
