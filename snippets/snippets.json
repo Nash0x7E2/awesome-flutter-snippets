@@ -144,6 +144,7 @@
         "body": [
             "CustomScrollView(",
             "  slivers: <Widget>[",
+            "  ${0:}",
             "  ],",
             "),"
         ],
@@ -273,6 +274,7 @@
         "body": [
             "@override",
             "bool get mounted {",
+            "  ${0:}",
             "}"
         ],
         "description": "Whether this State object is currently in a tree."
