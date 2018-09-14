@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Changes]
 
+### 1.0.5 
+- Adjusted tab stops to improve efficiency and workflow 
+- Removed blank Containers from builders in favor of a tab stop with semi-colon
+- Added trailing comma at the end of child parameter
+
 ### 1.0.4
 - Fixed formatting 
 - Removed unused tabs

@@ -46,6 +46,12 @@ At this time, there are no known issues. If you discover a bug or would like to 
 
 ## Release Notes
 
+### 1.0.5 
+Critical bug fixes:
+    - Adjusted tab stops to improve efficiency and workflow 
+    - Removed blank Containers from builders in favor of a tab stop with semi-colon
+    - Added trailing comma at the end of child parameter
+
 ### 1.0.4
 - Fixed formatting 
 - Removed unused tabs
