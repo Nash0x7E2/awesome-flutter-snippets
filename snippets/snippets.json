@@ -35,9 +35,7 @@
         "body": [
             "@override",
             "Widget build(BuildContext context) {",
-            "  return Container(",
-            "    child: ${0:child},",
-            "  );",
+            "  return ${0:};",
             "}"
         ],
         "description": "Describes the part of the user interface represented by this widget."
