@@ -294,5 +294,10 @@
             "final _${2:name}Controller = StreamController<${1:type}>();"
         ],
         "description": "A source of asynchronous data events. A stream can be of any data type <T>"
-    }
+    },
+    "Material Package": {
+		"prefix": "impm",
+		"body": "import 'package:flutter/material.dart';",
+		"description": "Import flutter material package"
+	}
 }
