@@ -33,6 +33,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `mntd`   | Mounted  | Whether this State object is currently in a tree. |
 | `snk`   | Sink  | A Sink is the input of a stream. |
 | `strm`   | Stream  | A source of asynchronous data events. A stream can be of any data type. |
+| `impm`    | Material Package | Import Material package.
 
 <br>
 
