@@ -3,6 +3,8 @@
         "prefix": "stlss",
         "body": [
             "class ${1:name} extends StatelessWidget {",
+            "  final Widget ${2:child};\n",
+            "  ${1:name}({Key key, this.${2:child}}) : super(key: key);\n",
             "  @override",
             "  Widget build(BuildContext context) {",
             "    return Container(",
@@ -17,13 +19,15 @@
         "prefix": "stful",
         "body": [
             "class ${1:name} extends StatefulWidget {",
+            "  final Widget ${2:child};\n",
+            "  ${1:name}({Key key, this.${2:child}}) : super(key: key);\n",
             "  _${1:WidgetName}State createState() => _${1:WidgetName}State();",
             "}\n",
             "class _${1:index}State extends State<${1:index}> {",
             "  @override",
             "  Widget build(BuildContext context) {",
             "    return Container(",
-            "       child: ${2:child},",
+            "       child: widget.${2:child},",
             "    );",
             "  }",
             "}"
@@ -311,5 +315,10 @@
             "debugPrint(${1:statement});"
         ],
         "description": "Prints a message to the console, which you can access using the flutter tool's `logs` command (flutter logs)."
-    }
+    },
+    "Material Package": {
+		"prefix": "impm",
+		"body": "import 'package:flutter/material.dart';",
+		"description": "Import flutter material package"
+	}
 }
