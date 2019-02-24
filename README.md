@@ -36,6 +36,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `toStr`   | To String  | Returns a string representation of this object. |
 | `debugP`   | Debug Print  | Prints a message to the console, which you can access using the flutter tool's `logs` command (flutter logs). |
 | `impm`    | Material Package | Import Material package.
+| `impc`    | Cupertino Package | Import Cupertino package.
 
 <br>
 
