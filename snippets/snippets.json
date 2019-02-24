@@ -294,5 +294,22 @@
             "final _${2:name}Controller = StreamController<${1:type}>();"
         ],
         "description": "A source of asynchronous data events. A stream can be of any data type <T>"
+    },
+    "toString": {
+        "prefix": "toStr",
+        "body": [
+            "@override",
+            "String toString() {",
+              "return ${1:toString};",
+           " }"
+        ],
+        "description": "Returns a string representation of this object."
+    },
+    "debugPrint": {
+        "prefix": "debugP",
+        "body": [
+            "debugPrint(${1:statement});"
+        ],
+        "description": "Prints a message to the console, which you can access using the flutter tool's `logs` command (flutter logs)."
     }
 }
