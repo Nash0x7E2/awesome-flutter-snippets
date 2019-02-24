@@ -50,6 +50,13 @@ At this time, there are no known issues. If you discover a bug or would like to 
 
 ## Release Notes
 
+### 1.0.6
+- Added support for debug print
+- Added support for to string 
+- Added support for importing Cupertino package 
+- Added support for importing Material package (PR #2)
+- Added child logic to Stateless and Stateful widgets snippets (PR #3)
+
 ### 1.0.5 
 Critical bug fixes:
 - Adjusted tab stops to improve efficiency and workflow 
