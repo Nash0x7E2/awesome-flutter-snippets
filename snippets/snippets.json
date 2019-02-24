@@ -320,5 +320,10 @@
 		"prefix": "impm",
 		"body": "import 'package:flutter/material.dart';",
 		"description": "Import flutter material package"
+    },
+    "Cupertino Package": {
+		"prefix": "impc",
+		"body": "import 'package:flutter/cupertino.dart';",
+		"description": "Import Flutter Cupertino package"
 	}
 }
