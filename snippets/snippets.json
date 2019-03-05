@@ -225,7 +225,6 @@
             "  child: Column(",
             "    ${0:}",
             "  ),",
-            " }",
             "),"
         ],
         "description": "Creates a scroll view with a single child"
