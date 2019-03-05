@@ -1,6 +1,6 @@
 {
     "Stateless Widget": {
-        "prefix": "stlss",
+        "prefix": "statelessW",
         "body": [
             "class ${1:name} extends StatelessWidget {",
             "  final Widget ${2:child};\n",
@@ -16,7 +16,7 @@
         "description": "Create a Stateless widget"
     },
     "Stateful Widget": {
-        "prefix": "stful",
+        "prefix": "statefulW",
         "body": [
             "class ${1:name} extends StatefulWidget {",
             "  final Widget ${2:child};\n",
@@ -35,7 +35,7 @@
         "description": "Create a Stateful widget"
     },
     "Build Method": {
-        "prefix": "bld",
+        "prefix": "build",
         "body": [
             "@override",
             "Widget build(BuildContext context) {",
@@ -45,7 +45,7 @@
         "description": "Describes the part of the user interface represented by this widget."
     },
     "Custom Painter ": {
-        "prefix": "cp",
+        "prefix": "customPainter",
         "body": [
             "class ${0:name}Painter extends CustomPainter {",
             "",
@@ -63,7 +63,7 @@
         "description": "Used for creating custom paint"
     },
     "Custom Clipper ": {
-        "prefix": "cc",
+        "prefix": "customClipper",
         "body": [
             "class ${0:name}Clipper extends CustomClipper<Path> {",
             "",
@@ -78,7 +78,7 @@
         "description": "Used for creating custom shapes"
     },
     "InitState ": {
-        "prefix": "init",
+        "prefix": "initS",
         "body": [
             "void initState() { ",
             "  super.initState();",
@@ -99,7 +99,7 @@
         "description": "Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again."
     },
     "Reassemble": {
-        "prefix": "rasm",
+        "prefix": "reassemble",
         "body": [
             "@override",
             "void reassemble(){",
@@ -110,7 +110,7 @@
         "description": "Called whenever the application is reassembled during debugging, for example during hot reload."
     },
     "didChangeDependencies": {
-        "prefix": "dcd",
+        "prefix": "didChangeD",
         "body": [
             "@override",
             "void didChangeDependencies() {",
@@ -121,7 +121,7 @@
         "description": "Called when a dependency of this State object changes"
     },
     "didUpdateWidget": {
-        "prefix": "duw",
+        "prefix": "didUpdateW",
         "body": [
             "@override",
             "void didUpdateWidget (${1:Type} ${2:oldWidget}) {",
@@ -132,7 +132,7 @@
         "description": "Called whenever the widget configuration changes."
     },
     "ListView.Builder": {
-        "prefix": "lsb",
+        "prefix": "listViewB",
         "body": [
             "ListView.builder(",
             "  itemCount: ${1:1},",
@@ -144,7 +144,7 @@
         "description": "Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null `itemCount` improves the ability of the [ListView] to estimate the maximum scroll extent."
     },
     "Custom Scroll View": {
-        "prefix": "csv",
+        "prefix": "customScrollV",
         "body": [
             "CustomScrollView(",
             "  slivers: <Widget>[",
@@ -155,7 +155,7 @@
         "description": "Creates a `ScrollView` that creates custom scroll effects using slivers. If the `primary` argument is true, the `controller` must be null."
     },
     "Stream Builder": {
-        "prefix": "stb",
+        "prefix": "streamBldr",
         "body": [
             "StreamBuilder(",
             "  stream: ${1:stream} ,",
@@ -170,7 +170,7 @@
         "description": "Creates a new `StreamBuilder` that builds itself based on the latest snapshot of interaction with the specified `stream`"
     },
     "Animated Builder": {
-        "prefix": "abldr",
+        "prefix": "AnimatedBldr",
         "body": [
             "AnimatedBuilder(",
             "  animation: ${1:animation},",
@@ -183,7 +183,7 @@
         "description": "Creates an Animated Builder. The widget specified to `child` is passed to the `builder` "
     },
     "Stateful Builder": {
-        "prefix": "stflbldr",
+        "prefix": "statefulBldr",
         "body": [
             "StatefulBuilder(",
             "  builder: (BuildContext context, setState) {",
@@ -194,7 +194,7 @@
         "description": "Creates a widget that both has state and delegates its build to a callback. Useful for rebuilding specific sections of the widget tree."
     },
     "Oriantation Builder": {
-        "prefix": "oribldr",
+        "prefix": "oriantationBldr",
         "body": [
             "OrientationBuilder(",
             "  builder: (BuildContext context, Orientation orientation) {",
@@ -207,7 +207,7 @@
         "description": "Creates a builder which allows for the orientation of the device to be specified and referenced"
     },
     "Layout Builder": {
-        "prefix": "laybldr",
+        "prefix": "layoutBldr",
         "body": [
             "LayoutBuilder(",
             "  builder: (BuildContext context, BoxConstraints constraints) {",
@@ -218,7 +218,7 @@
         "description": "Similar to the Builder widget except that the framework calls the builder function at layout time and provides the parent widget's constraints."
     },
     "Single Child ScrollView": {
-        "prefix": "scsv",
+        "prefix": "singleChildSV",
         "body": [
             "SingleChildScrollView(",
             "  controller: ${1:controller,}",
@@ -230,7 +230,7 @@
         "description": "Creates a scroll view with a single child"
     },
     "Future Builder": {
-        "prefix": "ftbldr",
+        "prefix": "futureBldr",
         "body": [
             "FutureBuilder(",
             "  future: ${1:Future},",
@@ -253,7 +253,7 @@
         "description": "This method is invoked when a non-existent method or property is accessed."
     },
     "Inherited Widget": {
-        "prefix": "inhwdgt",
+        "prefix": "inheritedW",
         "body": [
             "class ${1:Name} extends InheritedWidget {",
             "  ${1:Name}({Key key, this.child}) : super(key: key, child: child);",
@@ -273,7 +273,7 @@
         "description": "Class used to propagate information down the widget tree"
     },
     "Mounted": {
-        "prefix": "mntd",
+        "prefix": "mounted",
         "body": [
             "@override",
             "bool get mounted {",
@@ -316,12 +316,12 @@
         "description": "Prints a message to the console, which you can access using the flutter tool's `logs` command (flutter logs)."
     },
     "Material Package": {
-		"prefix": "impm",
+		"prefix": "importM",
 		"body": "import 'package:flutter/material.dart';",
 		"description": "Import flutter material package"
     },
     "Cupertino Package": {
-		"prefix": "impc",
+		"prefix": "importC",
 		"body": "import 'package:flutter/cupertino.dart';",
 		"description": "Import Flutter Cupertino package"
 	}
