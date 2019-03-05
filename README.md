@@ -9,34 +9,34 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 
 | Shortcut   | Expanded                 | Description                                                                                                                                                                             |
 | ---------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `stlss`    | Stateless Widget         | Creates a Stateless widget                                                                                                                                                              |
-| `stful`    | Stateful Widget          | Creates a Stateful widget                                                                                                                                                               |
-| `bld`      | Build Method             | Describes the part of the user interface represented by the widget.                                                                                                                     |
-| `init`     | InitState                | Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.                                                   |
+| `statelessW`    | Stateless Widget         | Creates a Stateless widget                                                                                                                                                              |
+| `statefulW`    | Stateful Widget          | Creates a Stateful widget                                                                                                                                                               |
+| `build`      | Build Method             | Describes the part of the user interface represented by the widget.                                                                                                                     |
+| `initS`     | InitState                | Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.                                                   |
 | `dis`      | Dispose                  | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.                                            |
-| `rasm`     | Reassemble               | Called whenever the application is reassembled during debugging, for example during hot reload.                                                                                         |
-| `dcd`      | didChangeDependencies    | Called when a dependency of this State object changes                                                                                                                                   |
-| `duw`      | didUpdateWidget          | Called whenever the widget configuration changes.                                                                                                                                       |
-| `cc`       | Custom Clipper           | Used for creating custom shapes                                                                                                                                                         |
-| `cp`       | Custom Painter           | Used for creating custom paint                                                                                                                                                          |
-| `lsb`      | ListView.Builder         | Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null `itemCount` improves the ability of the `ListView` to estimate the maximum scroll extent. |
-| `csv`      | Custom ScrollView        | Creates a `ScrollView` that creates custom scroll effects using slivers. If the `primary` argument is true, the `controller` must be null.                                              |
-| `stb`      | Stream Builder           | Creates a new `StreamBuilder` that builds itself based on the latest snapshot of interaction with the specified `stream`                                                                |
-| `abldr`    | Animated Builder         | Creates an Animated Builder. The widget specified to `child` is passed to the `builder`                                                                                                 |
-| `stflbldr` | Stateful Builder         | Creates a widget that both has state and delegates its build to a callback. Useful for rebuilding specific sections of the widget tree.                                                 |
-| `oribldr`  | Orientation Builder      | Creates a builder which allows for the orientation of the device to be specified and referenced                                                                                         |
-| `laybldr`  | Layout Builder           | Similar to the `Builder` widget except that the framework calls the builder function at layout time and provides the parent widget's constraints.                                       |
-| `scsv`     | Single Child Scroll View | Creates a scroll view with a single child                                                                                                                                               |
-| `ftbldr`   | Future Builder           | Creates a Future Builder. This builds itself based on the latest snapshot of interaction with a Future.                                                                                 |
+| `reassemble`     | Reassemble               | Called whenever the application is reassembled during debugging, for example during hot reload.                                                                                         |
+| `didChangeD`      | didChangeDependencies    | Called when a dependency of this State object changes                                                                                                                                   |
+| `didUpdateW`      | didUpdateWidget          | Called whenever the widget configuration changes.                                                                                                                                       |
+| `customClipper`       | Custom Clipper           | Used for creating custom shapes                                                                                                                                                         |
+| `customPainter`       | Custom Painter           | Used for creating custom paint                                                                                                                                                          |
+| `listViewB`      | ListView.Builder         | Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null `itemCount` improves the ability of the `ListView` to estimate the maximum scroll extent. |
+| `customScrollV`      | Custom ScrollView        | Creates a `ScrollView` that creates custom scroll effects using slivers. If the `primary` argument is true, the `controller` must be null.                                              |
+| `streamBldr`      | Stream Builder           | Creates a new `StreamBuilder` that builds itself based on the latest snapshot of interaction with the specified `stream`                                                                |
+| `AnimatedBldr`    | Animated Builder         | Creates an Animated Builder. The widget specified to `child` is passed to the `builder`                                                                                                 |
+| `statefulBldr` | Stateful Builder         | Creates a widget that both has state and delegates its build to a callback. Useful for rebuilding specific sections of the widget tree.                                                 |
+| `oriantationBldr`  | Orientation Builder      | Creates a builder which allows for the orientation of the device to be specified and referenced                                                                                         |
+| `layoutBldr`  | Layout Builder           | Similar to the `Builder` widget except that the framework calls the builder function at layout time and provides the parent widget's constraints.                                       |
+| `singleChildSV`     | Single Child Scroll View | Creates a scroll view with a single child                                                                                                                                               |
+| `futureBldr`   | Future Builder           | Creates a Future Builder. This builds itself based on the latest snapshot of interaction with a Future.                                                                                 |
 | `nosm`   | No Such Method           | This method is invoked when a non-existent method or property is accessed. |
-| `inhwdgt`   | Inherited Widget          | Class used to propagate information down the widget tree. |
-| `mntd`   | Mounted  | Whether this State object is currently in a tree. |
+| `inheritedW`   | Inherited Widget          | Class used to propagate information down the widget tree. |
+| `mounted`   | Mounted  | Whether this State object is currently in a tree. |
 | `snk`   | Sink  | A Sink is the input of a stream. |
 | `strm`   | Stream  | A source of asynchronous data events. A stream can be of any data type. |
 | `toStr`   | To String  | Returns a string representation of this object. |
 | `debugP`   | Debug Print  | Prints a message to the console, which you can access using the flutter tool's `logs` command (flutter logs). |
-| `impm`    | Material Package | Import Material package.
-| `impc`    | Cupertino Package | Import Cupertino package.
+| `importM`    | Material Package | Import Material package.
+| `importC`    | Cupertino Package | Import Cupertino package.
 
 <br>
 
@@ -49,6 +49,10 @@ Vscode: "^1.24.0"
 At this time, there are no known issues. If you discover a bug or would like to see a shortcut added, please create a pull request at our GitHub page. 
 
 ## Release Notes
+
+### 2.0.0 
+- Changed prefixes to use a keyword associated with the widget/function (in camel case)
+- Bug fixes 
 
 ### 1.0.6
 - Added support for debug print
