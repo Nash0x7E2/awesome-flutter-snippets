@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Changes]
 
+### 2.0.0 
+- Changed prefixes to use a keyword associated with the widget/function (in camel case)
+- Bug fixes 
+
 ### 1.0.6
 - Added support for debug print
 - Added support for to string 
