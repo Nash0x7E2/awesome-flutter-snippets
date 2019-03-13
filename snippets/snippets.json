@@ -170,7 +170,7 @@
         "description": "Creates a new `StreamBuilder` that builds itself based on the latest snapshot of interaction with the specified `stream`"
     },
     "Animated Builder": {
-        "prefix": "AnimatedBldr",
+        "prefix": "animatedBldr",
         "body": [
             "AnimatedBuilder(",
             "  animation: ${1:animation},",
