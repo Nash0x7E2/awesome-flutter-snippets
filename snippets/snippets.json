@@ -355,7 +355,7 @@
     },
     "Cupertino App": {
         "prefix": "cupeapp",
-        "description": "Cupertino App",
+        "description": "Create a Cupertino App",
         "body": [
             "import 'package:flutter/material.dart';",
             " ",
