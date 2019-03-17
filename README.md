@@ -37,6 +37,8 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `debugP`   | Debug Print  | Prints a message to the console, which you can access using the flutter tool's `logs` command (flutter logs). |
 | `importM`    | Material Package | Import Material package.
 | `importC`    | Cupertino Package | Import Cupertino package.
+| `mateapp`    | Material App | Create a new Material App.
+| `cupeapp`    | Cupertino Package | Create a New Cupertino App.
 
 <br>
 
@@ -49,6 +51,11 @@ Vscode: "^1.24.0"
 At this time, there are no known issues. If you discover a bug or would like to see a shortcut added, please create a pull request at our GitHub page. 
 
 ## Release Notes
+
+### 2.0.1 
+- Added Material App.
+- Added Cupertino App.
+
 
 ### 2.0.0 
 - Changed prefixes to use a keyword associated with the widget/function (in camel case)

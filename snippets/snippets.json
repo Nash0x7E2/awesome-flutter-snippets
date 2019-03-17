@@ -303,8 +303,8 @@
         "body": [
             "@override",
             "String toString() {",
-              "return ${1:toString};",
-           " }"
+            "return ${1:toString};",
+            " }"
         ],
         "description": "Returns a string representation of this object."
     },
@@ -316,13 +316,69 @@
         "description": "Prints a message to the console, which you can access using the flutter tool's `logs` command (flutter logs)."
     },
     "Material Package": {
-		"prefix": "importM",
-		"body": "import 'package:flutter/material.dart';",
-		"description": "Import flutter material package"
+        "prefix": "importM",
+        "body": "import 'package:flutter/material.dart';",
+        "description": "Import flutter material package"
     },
     "Cupertino Package": {
-		"prefix": "importC",
-		"body": "import 'package:flutter/cupertino.dart';",
-		"description": "Import Flutter Cupertino package"
-	}
+        "prefix": "importC",
+        "body": "import 'package:flutter/cupertino.dart';",
+        "description": "Import Flutter Cupertino package"
+    },
+    "Material App": {
+        "prefix": "mateapp",
+        "description": "Create a MaterialApp",
+        "body": [
+            "import 'package:flutter/cupertino.dart';",
+            " ",
+            "void main() => runApp(MyApp());",
+            " ",
+            "class MyApp extends StatelessWidget {",
+            "  @override",
+            "  Widget build(BuildContext context) {",
+            "    return CupertinoApp(",
+            "      title: 'Cupertino App',",
+            "      home: CupertinoPageScaffold(",
+            "        navigationBar: CupertinoNavigationBar(",
+            "          middle: Text('Cupertino App Bar'),",
+            "        ),",
+            "        child: Center(",
+            "          child: Container(",
+            "            child: Text('Hello World'),",
+            "          ),",
+            "        ),",
+            "      ),",
+            "    );",
+            "  }",
+            "}"
+        ]
+    },
+    "Cupertino App": {
+        "prefix": "cupeapp",
+        "description": "Cupertino App",
+        "body": [
+            "import 'package:flutter/material.dart';",
+            " ",
+            "void main() => runApp(MyApp());",
+            " ",
+            "class MyApp extends StatelessWidget {",
+            "  @override",
+            "  Widget build(BuildContext context) {",
+            "    return MaterialApp(",
+            "      title: 'Material App',",
+            "      home: Scaffold(",
+            "        appBar: AppBar(",
+            "          title: Text('Material App Bar'),",
+            "        ),",
+            "        body: Center(",
+            "          child: Container(",
+            "            child: Text('Hello World'),",
+            "          ),",
+            "        ),",
+            "      ),",
+            "    );",
+            "  }",
+            "}"
+        ]
+    }
 }
