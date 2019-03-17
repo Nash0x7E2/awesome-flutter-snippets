@@ -56,7 +56,6 @@ At this time, there are no known issues. If you discover a bug or would like to 
 - Added Material App.
 - Added Cupertino App.
 
-
 ### 2.0.0 
 - Changed prefixes to use a keyword associated with the widget/function (in camel case)
 - Bug fixes 
