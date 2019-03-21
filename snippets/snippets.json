@@ -80,6 +80,7 @@
     "InitState ": {
         "prefix": "initS",
         "body": [
+	    "@override",  	
             "void initState() { ",
             "  super.initState();",
             "  ${0:}",
