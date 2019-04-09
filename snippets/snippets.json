@@ -1,39 +1,4 @@
 {
-    "Stateless Widget": {
-        "prefix": "statelessW",
-        "body": [
-            "class ${1:name} extends StatelessWidget {",
-            "  final Widget ${2:child};\n",
-            "  ${1:name}({Key key, this.${2:child}}) : super(key: key);\n",
-            "  @override",
-            "  Widget build(BuildContext context) {",
-            "    return Container(",
-            "      child: ${2:child},",
-            "    );",
-            "  }",
-            "}"
-        ],
-        "description": "Create a Stateless widget"
-    },
-    "Stateful Widget": {
-        "prefix": "statefulW",
-        "body": [
-            "class ${1:name} extends StatefulWidget {",
-            "  final Widget ${2:child};\n",
-            "  ${1:name}({Key key, this.${2:child}}) : super(key: key);\n",
-            "  _${1:WidgetName}State createState() => _${1:WidgetName}State();",
-            "}\n",
-            "class _${1:index}State extends State<${1:index}> {",
-            "  @override",
-            "  Widget build(BuildContext context) {",
-            "    return Container(",
-            "       child: widget.${2:child},",
-            "    );",
-            "  }",
-            "}"
-        ],
-        "description": "Create a Stateful widget"
-    },
     "Build Method": {
         "prefix": "build",
         "body": [

@@ -1,5 +1,5 @@
 # Awesome Flutter Snippets 
-Awesome Flutter Snippets is a collection of commonly used Flutter classes and methods. It increases your speed of development by eliminating most of the boilerplate code associated with creating a widget. Widgets such as `Stateless` and `Stateful` can be created by typing the shortcut `stlss` and `stful` respectively.
+Awesome Flutter Snippets is a collection of commonly used Flutter classes and methods. It increases your speed of development by eliminating most of the boilerplate code associated with creating a widget. Widgets such as `StreamBuilder` and `SingleChildScrollView` can be created by typing the shortcut `streamBldr` and `singleChildSV` respectively.
 <br>
 ## Features
 - Speeds up development 
@@ -9,8 +9,6 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 
 | Shortcut   | Expanded                 | Description                                                                                                                                                                             |
 | ---------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `statelessW`    | Stateless Widget         | Creates a Stateless widget                                                                                                                                                              |
-| `statefulW`    | Stateful Widget          | Creates a Stateful widget                                                                                                                                                               |
 | `build`      | Build Method             | Describes the part of the user interface represented by the widget.                                                                                                                     |
 | `initS`     | InitState                | Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.                                                   |
 | `dis`      | Dispose                  | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.                                            |
