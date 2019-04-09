@@ -51,6 +51,7 @@ At this time, there are no known issues. If you discover a bug or would like to 
 ## Release Notes
 
 ### 2.0.1 
+- Removed Stateful and Statless Widget since they are included with DartCode.
 - Added Material App.
 - Added Cupertino App.
 

@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Changes]
 
+### 2.0.1 
+- Removed Stateful and Statless Widget since they are included with DartCode.
+- Added Material App.
+- Added Cupertino App.
+
 ### 2.0.0 
 - Changed prefixes to use a keyword associated with the widget/function (in camel case)
 - Bug fixes 
