@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Changes]
 
+### 2.0.2
+- Resolved issue  [#6](https://github.com/Nash0x7E2/awesome-flutter-snippets/issues/6)
+
 ### 2.0.1 
 - Removed Stateful and Statless Widget since they are included with DartCode.
 - Added Material App.

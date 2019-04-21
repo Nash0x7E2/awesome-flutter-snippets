@@ -9,6 +9,8 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 
 | Shortcut   | Expanded                 | Description                                                                                                                                                                             |
 | ---------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `statelessW`    | Stateless Widget         | Creates a Stateless widget                                                                                                                                                              |
+| `statefulW`    | Stateful Widget          | Creates a Stateful widget                                                                                                                                                               |
 | `build`      | Build Method             | Describes the part of the user interface represented by the widget.                                                                                                                     |
 | `initS`     | InitState                | Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.                                                   |
 | `dis`      | Dispose                  | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.                                            |
@@ -49,6 +51,9 @@ Vscode: "^1.24.0"
 At this time, there are no known issues. If you discover a bug or would like to see a shortcut added, please create a pull request at our GitHub page. 
 
 ## Release Notes
+
+### 2.0.2
+- Resolved issue  [#6](https://github.com/Nash0x7E2/awesome-flutter-snippets/issues/6)
 
 ### 2.0.1 
 - Removed Stateful and Statless Widget since they are included with DartCode.
