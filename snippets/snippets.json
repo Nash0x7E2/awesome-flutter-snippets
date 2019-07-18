@@ -297,6 +297,14 @@
         ],
         "description": "A source of asynchronous data events. A stream can be of any data type <T>"
     },
+    "Subject": {
+	"prefix": "subj",
+	"body": [
+	    "Stream<${1:type}> get ${2:name} => _${2:name}Subject.stream;",
+	    "final _${2:name}Subject = BehaviorSubject<${1:type}>();"
+	],
+	"description": "A BehaviorSubject is also a broadcast StreamController which returns an Observable rather than a Stream."
+    },
     "toString": {
         "prefix": "toStr",
         "body": [
