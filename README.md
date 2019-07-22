@@ -33,6 +33,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `mounted`   | Mounted  | Whether this State object is currently in a tree. |
 | `snk`   | Sink  | A Sink is the input of a stream. |
 | `strm`   | Stream  | A source of asynchronous data events. A stream can be of any data type. |
+| `subj`   | Subject  | A BehaviorSubject is also a broadcast StreamController which returns an Observable rather than a Stream. |
 | `toStr`   | To String  | Returns a string representation of this object. |
 | `debugP`   | Debug Print  | Prints a message to the console, which you can access using the flutter tool's `logs` command (flutter logs). |
 | `importM`    | Material Package | Import Material package.
