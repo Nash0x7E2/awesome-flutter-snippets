@@ -193,7 +193,7 @@
         "description": "Creates a widget that both has state and delegates its build to a callback. Useful for rebuilding specific sections of the widget tree."
     },
     "Oriantation Builder": {
-        "prefix": "oriantationBldr",
+        "prefix": "orientationBldr",
         "body": [
             "OrientationBuilder(",
             "  builder: (BuildContext context, Orientation orientation) {",
