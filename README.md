@@ -46,7 +46,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 <br>
 
 ## Requirements
-Vscode: "^1.24.0"
+Vscode: ^1.39.0
 
 <br>
 
