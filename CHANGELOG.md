@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 ## [Changes]
 
+### 2.0.3
+- Support for `BehaviorSubject` (Thanks @sinadarvi https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/7)
+- Support for `TweenAnimationBuilder`
+- Support for `ValueListenableBuilder`
+- Fixed various bug fixes and typos
+
 ### 2.0.2
 - Resolved issue  [#6](https://github.com/Nash0x7E2/awesome-flutter-snippets/issues/6)
 
