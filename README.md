@@ -40,6 +40,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `importC`    | Cupertino Package | Import Cupertino package.
 | `mateapp`    | Material App | Create a new Material App.
 | `cupeapp`    | Cupertino Package | Create a New Cupertino App.
+| `tweenAnimationBuilder`    | Tween Animation Builder | Widget builder that animates a property of a Widget to a target value whenever the target value changes.
 
 <br>
 
