@@ -41,6 +41,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `mateapp`    | Material App | Create a new Material App.
 | `cupeapp`    | Cupertino Package | Create a New Cupertino App.
 | `tweenAnimationBuilder`    | Tween Animation Builder | Widget builder that animates a property of a Widget to a target value whenever the target value changes.
+| `valueListenableBuilder`    | Value Listenable Builder | Given a ValueListenable<T> and a builder which builds widgets from concrete values of T, this class will automatically register itself as a listener of the ValueListenable and call the builder with updated values when the value changes.
 
 <br>
 

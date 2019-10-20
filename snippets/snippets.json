@@ -402,5 +402,16 @@
         ],
         "description": "Widget builder that animates a property of a Widget to a target value whenever the target value changes."
     },
+    "Value Listenable Builder": {
+        "prefix": "valueListenableBuilder",
+        "body": [
+            "ValueListenableBuilder(",
+            "    valueListenable: ${1: null},",
+            "    builder: (BuildContext context, ${2:dynamic} value, Widget child) {",
+            "       return ${3: Container();}",
+            "    },",
+            " ),"
+        ],
+        "description": "Given a ValueListenable<T> and a builder which builds widgets from concrete values of T, this class will automatically register itself as a listener of the ValueListenable and call the builder with updated values when the value changes."
     }
 }
