@@ -38,6 +38,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `debugP`   | Debug Print  | Prints a message to the console, which you can access using the flutter tool's `logs` command (flutter logs). |
 | `importM`    | Material Package | Import Material package.
 | `importC`    | Cupertino Package | Import Cupertino package.
+| `importFT`    | flutter_test Package | Import flutter_test package.
 | `mateapp`    | Material App | Create a new Material App.
 | `cupeapp`    | Cupertino Package | Create a New Cupertino App.
 | `tweenAnimationBuilder`    | Tween Animation Builder | Widget builder that animates a property of a Widget to a target value whenever the target value changes.

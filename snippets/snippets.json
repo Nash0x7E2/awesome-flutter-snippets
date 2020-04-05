@@ -333,6 +333,11 @@
         "body": "import 'package:flutter/cupertino.dart';",
         "description": "Import Flutter Cupertino package"
     },
+    "flutter_test Package": {
+		"prefix": "importFT",
+		"body": "import 'package:flutter_test/flutter_test.dart';",
+		"description": "Import flutter_test package"
+	},
     "Material App": {
         "prefix": "mateapp",
         "description": "Create a MaterialApp",
