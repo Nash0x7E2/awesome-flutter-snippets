@@ -418,5 +418,25 @@
             " ),"
         ],
         "description": "Given a ValueListenable<T> and a builder which builds widgets from concrete values of T, this class will automatically register itself as a listener of the ValueListenable and call the builder with updated values when the value changes."
+    },
+    "Test": {
+        "prefix": "f-test",
+        "body": [
+            "test(",
+            "   \"${1:test description}\",",
+            "   () {},",
+            ");"
+        ],
+        "description": "Create a test function"
+    },
+    "Test Widgets": {
+        "prefix": "f-testWidgets",
+        "body": [
+            "testWidgets(",
+            "   \"${1:test description}\",",
+            "   (WidgetTester tester) async {},",
+            ");"
+        ],
+        "description": "Create a testWidgets function"
     }
 }
