@@ -19,7 +19,7 @@
         "body": [
             "class ${1:name} extends StatefulWidget {",
             "  ${1:name}({Key key}) : super(key: key);\n",
-	    "  @override",
+            "  @override",
             "  _${1:WidgetName}State createState() => _${1:WidgetName}State();",
             "}\n",
             "class _${1:index}State extends State<${1:index}> {",
@@ -79,7 +79,7 @@
     "InitState ": {
         "prefix": "initS",
         "body": [
-	    "@override",  	
+            "@override",
             "void initState() { ",
             "  super.initState();",
             "  ${0:}",
@@ -261,7 +261,7 @@
             "  final Widget child;",
             "",
             "  static ${1:Name} of(BuildContext context) {",
-            "    return (context.inheritFromWidgetOfExactType(${1:Name})as ${1:Name});",
+            "    return (context.dependOnInheritedWidgetOfExactType<${1:Name}>();",
             "  }",
             "",
             "  @override",
@@ -299,12 +299,12 @@
         "description": "A source of asynchronous data events. A stream can be of any data type <T>"
     },
     "Subject": {
-	"prefix": "subj",
-	"body": [
-	    "Stream<${1:type}> get ${2:name} => _${2:name}Subject.stream;",
-	    "final _${2:name}Subject = BehaviorSubject<${1:type}>();"
-	],
-	"description": "A BehaviorSubject is also a broadcast StreamController which returns an Observable rather than a Stream."
+        "prefix": "subj",
+        "body": [
+            "Stream<${1:type}> get ${2:name} => _${2:name}Subject.stream;",
+            "final _${2:name}Subject = BehaviorSubject<${1:type}>();"
+        ],
+        "description": "A BehaviorSubject is also a broadcast StreamController which returns an Observable rather than a Stream."
     },
     "toString": {
         "prefix": "toStr",
@@ -334,10 +334,10 @@
         "description": "Import Flutter Cupertino package"
     },
     "flutter_test Package": {
-		"prefix": "importFT",
-		"body": "import 'package:flutter_test/flutter_test.dart';",
-		"description": "Import flutter_test package"
-	},
+        "prefix": "importFT",
+        "body": "import 'package:flutter_test/flutter_test.dart';",
+        "description": "Import flutter_test package"
+    },
     "Material App": {
         "prefix": "mateapp",
         "description": "Create a MaterialApp",
