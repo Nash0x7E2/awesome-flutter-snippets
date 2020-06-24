@@ -143,6 +143,21 @@
         ],
         "description": "Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null `itemCount` improves the ability of the [ListView] to estimate the maximum scroll extent."
     },
+    "ListView.Separated": {
+        "prefix": "listViewS",
+        "body": [
+            "ListView.separated(",
+            "  itemCount: ${1:1},",
+            "  separatorBuilder: (BuildContext context, int index) {",
+            "  return ${2:};",
+            " },",
+            "  itemBuilder: (BuildContext context, int index) {",
+            "  return ${3:};",
+            " },",
+            "),"
+        ],
+        "description": "Creates a fixed-length scrollable linear array of list 'items' separated by list item 'separators'."
+    },
     "Custom Scroll View": {
         "prefix": "customScrollV",
         "body": [
