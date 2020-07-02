@@ -276,11 +276,11 @@
             "  final Widget child;",
             "",
             "  static ${1:Name} of(BuildContext context) {",
-            "    return (context.inheritFromWidgetOfExactType(${1:Name})as ${1:Name});",
+            "    return context.dependOnInheritedWidgetOfExactType<${1:Name}>();",
             "  }",
             "",
             "  @override",
-            "  bool updateShouldNotify( ${1:Name} oldWidget) {",
+            "  bool updateShouldNotify(${1:Name} oldWidget) {",
             "    return ${2:true};",
             "  }",
             "}"
