@@ -59,6 +59,12 @@ At this time, there are no known issues. If you discover a bug or would like to 
 
 ## Release Notes
 
+### 2.0.4
+- Add Flutter test import (Thank you @arthurdenner https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/16)
+- Support for unit and widget test functions (Thank you @TNorbury https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/20)
+- Added support for Listview.Separated (Thank you @timilehinjegede https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/26)
+- Fixed inheritedW (Thank you @ianwith https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/22)
+
 ### 2.0.3
 - Support for `BehaviorSubject` (Thanks @sinadarvi https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/7)
 - Support for `TweenAnimationBuilder`
