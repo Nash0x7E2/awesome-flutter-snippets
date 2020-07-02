@@ -445,7 +445,7 @@
         "description": "Create a test function"
     },
     "Test Widgets": {
-        "prefix": "f-testWidgets",
+        "prefix": "widgetTest",
         "body": [
             "testWidgets(",
             "   \"${1:test description}\",",
