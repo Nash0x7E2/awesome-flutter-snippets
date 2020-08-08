@@ -173,9 +173,9 @@
         "prefix": "streamBldr",
         "body": [
             "StreamBuilder(",
-            "  stream: ${1:stream} ,",
-            "  initialData: ${2:initialData} ,",
-            "  builder: (BuildContext context, AsyncSnapshot snapshot){",
+            "  stream: ${1:stream},",
+            "  initialData: ${2:initialData},",
+            "  builder: (BuildContext context, AsyncSnapshot snapshot) {",
             "    return Container(",
             "      child: ${3:child},",
             "    );",
