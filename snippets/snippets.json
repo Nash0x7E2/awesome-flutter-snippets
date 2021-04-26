@@ -7,7 +7,7 @@
             "  @override",
             "  Widget build(BuildContext context) {",
             "    return Container(",
-            "      child: ${2:child},",
+            "      child: ${2:null},",
             "    );",
             "  }",
             "}"
@@ -26,7 +26,7 @@
             "  @override",
             "  Widget build(BuildContext context) {",
             "    return Container(",
-            "       child: ${2:child},",
+            "       child: ${2:null},",
             "    );",
             "  }",
             "}"
