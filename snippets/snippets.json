@@ -415,7 +415,7 @@
             "TweenAnimationBuilder(",
             "    duration: ${1:const Duration(),}",
             "    tween: ${2:Tween(),}",
-            "    builder: (BuildContext context, ${3:dynamic} value, Widget child) {",
+            "    builder: (BuildContext context, ${3:dynamic} value, Widget? child) {",
             "       return ${4:Container();}",
             "     },",
             " ),  "
@@ -427,7 +427,7 @@
         "body": [
             "ValueListenableBuilder(",
             "    valueListenable: ${1: null},",
-            "    builder: (BuildContext context, ${2:dynamic} value, Widget child) {",
+            "    builder: (BuildContext context, ${2:dynamic} value, Widget? child) {",
             "       return ${3: Container();}",
             "    },",
             " ),"
