@@ -50,7 +50,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 <br>
 
 ## Requirements
-Vscode: ^1.39.0
+Vscode: `1.56.0`
 
 <br>
 
@@ -58,6 +58,10 @@ Vscode: ^1.39.0
 At this time, there are no known issues. If you discover a bug or would like to see a shortcut added, please create a pull request at our GitHub page. 
 
 ## Release Notes
+
+### 3.0.0
+- Update all widgets to null safety 
+- Update engine to `1.56.0`
 
 ### 2.0.4
 - Add Flutter test import (Thank you @arthurdenner https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/16)
