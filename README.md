@@ -21,6 +21,9 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `customPainter`       | Custom Painter           | Used for creating custom paint                                                                                                                                                          |
 | `listViewB`      | ListView.Builder         | Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null `itemCount` improves the ability of the `ListView` to estimate the maximum scroll extent. |
 | `listViewS`    | ListView.Separated | Creates a fixed-length scrollable linear array of list 'items' separated by list item 'separators'. |
+| `gridViewB`    | GridView.Builder | Creates a scrollable, 2D array of widgets that are created on demand. Providing a non-null `itemCount` improves the ability of the `GridView` to estimate the maximum scroll extent. |
+| `gridViewC`      | GridView.Count         | Creates a scrollable, 2D array of widgets with a fixed number of tiles in the cross axis. 
+| `gridViewE`      | GridView.Extent         | Creates a scrollable, 2D array of widgets with tiles that each have a maximum cross-axis extent. 
 | `customScrollV`      | Custom ScrollView        | Creates a `ScrollView` that creates custom scroll effects using slivers. If the `primary` argument is true, the `controller` must be null.                                              |
 | `streamBldr`      | Stream Builder           | Creates a new `StreamBuilder` that builds itself based on the latest snapshot of interaction with the specified `stream`                                                                |
 | `animatedBldr`    | Animated Builder         | Creates an Animated Builder. The widget specified to `child` is passed to the `builder`                                                                                                 |
@@ -58,6 +61,11 @@ Vscode: `1.56.0`
 At this time, there are no known issues. If you discover a bug or would like to see a shortcut added, please create a pull request at our GitHub page. 
 
 ## Release Notes
+
+### 3.0.1
+- Support for `Listview.builder`
+- Support for `GridView.count`
+- Support for `GridView.extent`
 
 ### 3.0.0
 - Update all widgets to null safety 
