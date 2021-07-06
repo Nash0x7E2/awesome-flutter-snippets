@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 
 ## [Changes]
+### 3.0.1
+- Support for `Listview.builder`
+- Support for `GridView.count`
+- Support for `GridView.extent`
 
 ### 3.0.0
 - Update all widgets to null safety 
