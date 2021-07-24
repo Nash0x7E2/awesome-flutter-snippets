@@ -6,9 +6,7 @@
             "  const ${1:name}({Key? key}) : super(key: key);\n",
             "  @override",
             "  Widget build(BuildContext context) {",
-            "    return Container(",
-            "      child: ${2:null},",
-            "    );",
+            "    return Container();",
             "  }",
             "}"
         ],
@@ -25,9 +23,7 @@
             "class _${1:index}State extends State<${1:index}> {",
             "  @override",
             "  Widget build(BuildContext context) {",
-            "    return Container(",
-            "       child: ${2:null},",
-            "    );",
+            "    return Container();",
             "  }",
             "}"
         ],
