@@ -33,6 +33,29 @@
         ],
         "description": "Create a Stateful widget"
     },
+    "GetX Widget": {
+        "prefix": "getV",
+        "body": [
+            "class ${1:name} extends GetView<${1:index}Controller> {",
+            "  ${1:name}({Key? key}) : super(key: key);\n",
+            "  @override",
+            "  Widget build(BuildContext context) {",
+            "    return Container(",
+            "       child: ${2:null},",
+            "    );",
+            "  }",
+            "}\n",
+            "class ${1:index}Controller extends GetxController {",
+            "}\n",
+            "class ${1:index}Binding extends Bindings {",
+            "  @override",
+            "  void dependencies() {",
+            "    Get.put(${1:index}Controller());"
+            "  }",
+            "}"
+        ],
+        "description": "Create a Stateful widget"
+    },
     "Build Method": {
         "prefix": "build",
         "body": [
