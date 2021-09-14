@@ -76,7 +76,7 @@
         "prefix": "initS",
         "body": [
             "@override",
-            "void initState() { ",
+            "void initState() {",
             "  super.initState();",
             "  ${0:}",
             "}"
@@ -87,7 +87,7 @@
         "prefix": "dis",
         "body": [
             "@override",
-            "void dispose() { ",
+            "void dispose() {",
             "  ${0:}",
             "  super.dispose();",
             "}"
@@ -133,8 +133,8 @@
             "ListView.builder(",
             "  itemCount: ${1:1},",
             "  itemBuilder: (BuildContext context, int index) {",
-            "  return ${2:};",
-            " },",
+            "    return ${2:};",
+            "  },",
             "),"
         ],
         "description": "Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null `itemCount` improves the ability of the [ListView] to estimate the maximum scroll extent."
@@ -145,11 +145,11 @@
             "ListView.separated(",
             "  itemCount: ${1:1},",
             "  separatorBuilder: (BuildContext context, int index) {",
-            "  return ${2:};",
-            " },",
+            "    return ${2:};",
+            "  },",
             "  itemBuilder: (BuildContext context, int index) {",
-            "  return ${3:};",
-            " },",
+            "    return ${3:};",
+            "  },",
             "),"
         ],
         "description": "Creates a fixed-length scrollable linear array of list 'items' separated by list item 'separators'."
@@ -200,7 +200,7 @@
         "body": [
             "CustomScrollView(",
             "  slivers: <Widget>[",
-            "  ${0:}",
+            "    ${0:}",
             "  ],",
             "),"
         ],
@@ -232,7 +232,7 @@
             "  },",
             "),"
         ],
-        "description": "Creates an Animated Builder. The widget specified to `child` is passed to the `builder` "
+        "description": "Creates an Animated Builder. The widget specified to `child` is passed to the `builder`"
     },
     "Stateful Builder": {
         "prefix": "statefulBldr",
@@ -363,8 +363,8 @@
         "body": [
             "@override",
             "String toString() {",
-            "return ${1:toString};",
-            " }"
+            "  return ${1:toString};",
+            "}"
         ],
         "description": "Returns a string representation of this object."
     },
@@ -395,9 +395,9 @@
         "description": "Create a MaterialApp",
         "body": [
             "import 'package:flutter/material.dart';",
-            " ",
+            "",
             "void main() => runApp(MyApp());",
-            " ",
+            "",
             "class MyApp extends StatelessWidget {",
             "  @override",
             "  Widget build(BuildContext context) {",
@@ -423,9 +423,9 @@
         "description": "Create a CupertinoApp",
         "body": [
             "import 'package:flutter/cupertino.dart';",
-            " ",
+            "",
             "void main() => runApp(MyApp());",
-            " ",
+            "",
             "class MyApp extends StatelessWidget {",
             "  @override",
             "  Widget build(BuildContext context) {",
@@ -450,12 +450,12 @@
         "prefix": "tweenAnimationBuilder",
         "body": [
             "TweenAnimationBuilder(",
-            "    duration: ${1:const Duration(),}",
-            "    tween: ${2:Tween(),}",
-            "    builder: (BuildContext context, ${3:dynamic} value, Widget? child) {",
-            "       return ${4:Container();}",
-            "     },",
-            " ),  "
+            "  duration: ${1:const Duration(),}",
+            "  tween: ${2:Tween(),}",
+            "  builder: (BuildContext context, ${3:dynamic} value, Widget? child) {",
+            "    return ${4:Container();}",
+            "  },",
+            "),"
         ],
         "description": "Widget builder that animates a property of a Widget to a target value whenever the target value changes."
     },
@@ -463,11 +463,11 @@
         "prefix": "valueListenableBuilder",
         "body": [
             "ValueListenableBuilder(",
-            "    valueListenable: ${1: null},",
-            "    builder: (BuildContext context, ${2:dynamic} value, Widget? child) {",
-            "       return ${3: Container();}",
-            "    },",
-            " ),"
+            "  valueListenable: ${1: null},",
+            "  builder: (BuildContext context, ${2:dynamic} value, Widget? child) {",
+            "    return ${3: Container();}",
+            "  },",
+            "),"
         ],
         "description": "Given a ValueListenable<T> and a builder which builds widgets from concrete values of T, this class will automatically register itself as a listener of the ValueListenable and call the builder with updated values when the value changes."
     },
@@ -475,8 +475,8 @@
         "prefix": "f-test",
         "body": [
             "test(",
-            "   \"${1:test description}\",",
-            "   () {},",
+            "  \"${1:test description}\",",
+            "  () {},",
             ");"
         ],
         "description": "Create a test function"
@@ -485,8 +485,8 @@
         "prefix": "widgetTest",
         "body": [
             "testWidgets(",
-            "   \"${1:test description}\",",
-            "   (WidgetTester tester) async {},",
+            "  \"${1:test description}\",",
+            "  (WidgetTester tester) async {},",
             ");"
         ],
         "description": "Create a testWidgets function"
