@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 
 ## [Changes]
+### 3.0.2
+- Removed trailing whitespaces (Thank you @leoshusar https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/45)
+- Make widgets default to Container only (Thank you @Ascenio https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/43)
+
 ### 3.0.1
 - Support for `Listview.builder`
 - Support for `GridView.count`
