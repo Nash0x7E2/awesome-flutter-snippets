@@ -18,7 +18,7 @@
             "class ${1:name} extends StatefulWidget {",
             "  ${1:name}({Key? key}) : super(key: key);\n",
             "  @override",
-            "  _${1:WidgetName}State createState() => _${1:WidgetName}State();",
+            "  State<${1:index}> createState() => _${1:WidgetName}State();",
             "}\n",
             "class _${1:index}State extends State<${1:index}> {",
             "  @override",
