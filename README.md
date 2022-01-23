@@ -62,6 +62,9 @@ At this time, there are no known issues. If you discover a bug or would like to 
 
 ## Release Notes
 
+### 3.0.3
+- Use State<T> createState on statefulW snippet (Thank you [@marcossevilla](https://github.com/Nash0x7E2/awesome-flutter-snippets/commit/b18505ae59128ce8c2ff4cc60100603dc11259d5))
+
 ### 3.0.2
 - Removed trailing whitespaces (Thank you [@leoshusar](https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/45))
 - Make widgets default to Container only (Thank you [@Ascenio](https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/43))
