@@ -390,6 +390,11 @@
         "body": "import 'package:flutter_test/flutter_test.dart';",
         "description": "Import flutter_test package"
     },
+    "app_localizations Package": {
+        "prefix": "importAL",
+        "body": "import 'package:flutter_gen/gen_l10n/app_localizations.dart';",
+        "description": "Import app_localizations package"
+    },
     "Material App": {
         "prefix": "mateapp",
         "description": "Create a MaterialApp",
