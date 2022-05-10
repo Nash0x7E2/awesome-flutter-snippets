@@ -490,5 +490,19 @@
             ");"
         ],
         "description": "Create a testWidgets function"
+    },
+
+    "Singleton class": {
+        "prefix": "singletonC",
+        "body": [
+            "class ${1:Name} {",
+                "\tstatic final ${1:Name} _singleton = ${1:Name}._internal();\n",
+                "\tfactory ${1:Name}() {",
+                "\t\treturn _singleton;",
+                "\t}\n",
+                "\t${1:Name}._internal();",
+            "}"
+        ],
+        "description": "Create a Singleton class"
     }
 }
