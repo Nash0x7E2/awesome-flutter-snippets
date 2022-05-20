@@ -484,6 +484,16 @@
         ],
         "description": "Create a test function"
     },
+    "Group": {
+        "prefix": "f-group",
+        "body": [
+            "group(",
+            "  \"${1:group description}\",",
+            "  () {},",
+            ");"
+        ],
+        "description": "Create a group test function"
+    },
     "Test Widgets": {
         "prefix": "widgetTest",
         "body": [
