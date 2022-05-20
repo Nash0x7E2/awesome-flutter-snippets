@@ -362,9 +362,7 @@
         "prefix": "toStr",
         "body": [
             "@override",
-            "String toString() {",
-            "  return ${1:toString};",
-            "}"
+            "String toString() => ${1:toString}"
         ],
         "description": "Returns a string representation of this object."
     },
