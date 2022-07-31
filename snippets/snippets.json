@@ -308,7 +308,7 @@
         "prefix": "inheritedW",
         "body": [
             "class ${1:Name} extends InheritedWidget {",
-            "  const ${1:Name}({super.key, required super.child});",
+            "  const ${1:Name}({super.key, required this.child}) : super(child: child);",
             "",
             "  final Widget child;",
             "",
@@ -402,7 +402,7 @@
             "void main() => runApp(const MyApp());",
             "",
             "class MyApp extends StatelessWidget {",
-            "  const MyApp({Key? key}) : super(key: key);",
+            "  const MyApp({super.key});",
             "",
             "  @override",
             "  Widget build(BuildContext context) {",
@@ -430,7 +430,7 @@
             "void main() => runApp(const MyApp());",
             "",
             "class MyApp extends StatelessWidget {",
-            "  const MyApp({Key? key}) : super(key: key);",
+            "  const MyApp({super.key});",
             "",
             "  @override",
             "  Widget build(BuildContext context) {",
@@ -495,7 +495,7 @@
         "description": "Create a group test function"
     },
     "Test Widgets": {
-        "prefix": "widgetTest",
+        "prefix": "f-testWidgets",
         "body": [
             "testWidgets(",
             "  \"${1:test description}\",",
