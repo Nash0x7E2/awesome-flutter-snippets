@@ -308,7 +308,7 @@
         "prefix": "inheritedW",
         "body": [
             "class ${1:Name} extends InheritedWidget {",
-            "  const ${1:Name}({super.key, required super.child});",
+            "  const ${1:Name}({super.key, required this.child}) : super(child: child);",
             "",
             "  final Widget child;",
             "",
