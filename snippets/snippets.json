@@ -495,7 +495,7 @@
         "description": "Create a group test function"
     },
     "Test Widgets": {
-        "prefix": "widgetTest",
+        "prefix": "f-testWidgets",
         "body": [
             "testWidgets(",
             "  \"${1:test description}\",",
