@@ -1,5 +1,3 @@
-# README
-
 Awesome Flutter Snippets is a collection of commonly used Flutter classes and methods. It increases your speed of development by eliminating most of the boilerplate code associated with creating a widget. Widgets such as `StreamBuilder` and `SingleChildScrollView` can be created by typing the shortcut `streamBldr` and `singleChildSV` respectively.  
 
 <br/>
