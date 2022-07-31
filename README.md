@@ -12,9 +12,9 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 
 <br/>
 
-<center>
-<a href="https://newsletter.neevash.dev/" target="_blank"><img width="700px" src="https://raw.githubusercontent.com/Nash0x7E2/awesome-flutter-snippets/nash/flutter-3-validation/images/the_flutter_bi_weekly.svg?sanitize=true"/></a>
-</center>
+<p align="center">
+<a href="https://newsletter.neevash.dev/" target="_blank"><img width="700px" src="https://raw.githubusercontent.com/Nash0x7E2/awesome-flutter-snippets/master/images/the_flutter_bi_weekly.svg?sanitize=true"/></a>
+</p>
 
 &nbsp;
 
