@@ -11,7 +11,7 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 <br/>
 
 <p align="center">
-<a href="https://newsletter.neevash.dev/" target="_blank"><img width="700px" src="https://github.com/Nash0x7E2/awesome-flutter-snippets/blob/master/images/the_flutter_bi_weekly.png"/></a>
+<a href="https://newsletter.neevash.dev/" target="_blank"><img width="700px" src="https://i.ibb.co/L8GY3D5/the-flutter-bi-weekly.png"/></a>
 </p>
 
 &nbsp;
