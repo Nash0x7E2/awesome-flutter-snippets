@@ -402,7 +402,7 @@
             "void main() => runApp(const MyApp());",
             "",
             "class MyApp extends StatelessWidget {",
-            "  const MyApp({super.key});",
+            "  const MyApp({Key? key}) : super(key: key);",
             "",
             "  @override",
             "  Widget build(BuildContext context) {",
@@ -430,7 +430,7 @@
             "void main() => runApp(const MyApp());",
             "",
             "class MyApp extends StatelessWidget {",
-            "  const MyApp({super.key});",
+            "  const MyApp({Key? key}) : super(key: key);",
             "",
             "  @override",
             "  Widget build(BuildContext context) {",
@@ -503,5 +503,26 @@
             ");"
         ],
         "description": "Create a testWidgets function"
+    },
+    "A new Flutter Screen with a Scaffold": {
+        "prefix": "fl-screen",
+        "body": [
+            "import 'package:flutter/material.dart';",
+            "",
+            "class ${1:Home}Screen extends StatelessWidget {",
+            "   ",
+            "  const ${1:Home}Screen({Key? key}) : super(key: key);",
+            "  ",
+            "  @override",
+            "  Widget build(BuildContext context) {",
+            "    return const Scaffold(",
+            "      body: Center(",
+            "         child: Text('${1:Home}Screen'),",
+            "      ),",
+            "    );",
+            "  }",
+            "}"
+        ],
+        "description": "Create a new screen by default with Scaffold"
     }
 }
