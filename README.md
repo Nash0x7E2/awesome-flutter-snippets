@@ -1,11 +1,20 @@
-# Awesome Flutter Snippets 
-Awesome Flutter Snippets is a collection of commonly used Flutter classes and methods. It increases your speed of development by eliminating most of the boilerplate code associated with creating a widget. Widgets such as `StreamBuilder` and `SingleChildScrollView` can be created by typing the shortcut `streamBldr` and `singleChildSV` respectively.
-<br>
+Awesome Flutter Snippets is a collection of commonly used Flutter classes and methods. It increases your speed of development by eliminating most of the boilerplate code associated with creating a widget. Widgets such as `StreamBuilder` and `SingleChildScrollView` can be created by typing the shortcut `streamBldr` and `singleChildSV` respectively.  
+
+<br/>
+
 ## Features
-- Speeds up development 
-- Eliminates boilerplate 
+
+- Speeds up development
+- Eliminates boilerplate
 - Supports complex widgets (Eg: Custom Clipper and Custom Paint)
-<br>
+
+<br/>
+
+<p align="center">
+<a href="https://newsletter.neevash.dev/" target="_blank"><img width="700px" src="https://i.ibb.co/L8GY3D5/the-flutter-bi-weekly.png"/></a>
+</p>
+
+&nbsp;
 
 | Shortcut   | Expanded                 | Description                                                                                                                                                                             |
 | ---------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -43,110 +52,116 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `importM`    | Material Package | Import Material package.
 | `importC`    | Cupertino Package | Import Cupertino package.
 | `importFT`    | flutter_test Package | Import flutter_test package.
+| `importAL`  | App localisation | Allows for the importation of app_localisation following [generation](https://docs.flutter.dev/development/accessibility-and-localization/internationalization).
 | `mateapp`    | Material App | Create a new Material App.
 | `cupeapp`    | Cupertino Package | Create a New Cupertino App.
 | `tweenAnimationBuilder`    | Tween Animation Builder | Widget builder that animates a property of a Widget to a target value whenever the target value changes.
 | `valueListenableBuilder`    | Value Listenable Builder | Given a ValueListenable<T> and a builder which builds widgets from concrete values of T, this class will automatically register itself as a listener of the ValueListenable and call the builder with updated values when the value changes.
 | `f-group`    | Group | Create a group test function.
 | `f-test`    | Test | Create a test function.
-| `widgetTest`    | Test Widgets | Create a testWidgets function.
+| `f-testWidgets`    | Test Widgets | Create a testWidgets function.
 
-<br>
+<br/>
 
 ## Requirements
+
 Vscode: `1.56.0`
 
-<br>
-
 ## Known Issues
-At this time, there are no known issues. If you discover a bug or would like to see a shortcut added, please create a pull request at our GitHub page. 
+
+At this time, there are no known issues. If you discover a bug or would like to see a shortcut added, please create a pull request at our GitHub page.
 
 ## Release Notes
 
+### 4.0.0
+
+- **Breaking: Change `testWdigets` to `f-testWidgets` to better align with function snippets**
+- Support for `group` test function `f-group`
+- Support for app localisation import `importAL`
+- Support for Flutter 3
+    - Migrate to super initialisers
+    - Not on Flutter 3? The Flutter 2.xx branch is up to date and ready for you :)
+- Fixed Lint issue - Added `const` to applicable widgets
+
 ### 3.0.3
-- Use State<T> createState on statefulW snippet (Thank you [@marcossevilla](https://github.com/Nash0x7E2/awesome-flutter-snippets/commit/b18505ae59128ce8c2ff4cc60100603dc11259d5))
+
+- Use createState on statefulW snippet (Thank you [@marcossevilla](https://github.com/Nash0x7E2/awesome-flutter-snippets/commit/b18505ae59128ce8c2ff4cc60100603dc11259d5))
 
 ### 3.0.2
+
 - Removed trailing whitespaces (Thank you [@leoshusar](https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/45))
 - Make widgets default to Container only (Thank you [@Ascenio](https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/43))
 
-
 ### 3.0.1
+
 - Support for `Listview.builder`
 - Support for `GridView.count`
 - Support for `GridView.extent`
 
 ### 3.0.0
-- Update all widgets to null safety 
+
+- Update all widgets to null safety
 - Update engine to `1.56.0`
 
 ### 2.0.4
+
 - Add Flutter test import (Thank you @arthurdenner https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/16)
 - Support for unit and widget test functions (Thank you @TNorbury https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/20)
 - Added support for Listview.Separated (Thank you @timilehinjegede https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/26)
 - Fixed inheritedW (Thank you @ianwith https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/22)
 
 ### 2.0.3
+
 - Support for `BehaviorSubject` (Thanks @sinadarvi https://github.com/Nash0x7E2/awesome-flutter-snippets/pull/7)
 - Support for `TweenAnimationBuilder`
 - Support for `ValueListenableBuilder`
 - Fixed various bug fixes and typos
 
 ### 2.0.2
-- Resolved issue  [#6](https://github.com/Nash0x7E2/awesome-flutter-snippets/issues/6)
 
-### 2.0.1 
+- Resolved issue [#6](https://github.com/Nash0x7E2/awesome-flutter-snippets/issues/6)
+
+### 2.0.1
+
 - Removed Stateful and Statless Widget since they are included with DartCode.
 - Added Material App.
 - Added Cupertino App.
 
-### 2.0.0 
+### 2.0.0
+
 - Changed prefixes to use a keyword associated with the widget/function (in camel case)
-- Bug fixes 
+- Bug fixes
 
 ### 1.0.6
+
 - Added support for debug print
-- Added support for to string 
-- Added support for importing Cupertino package 
+- Added support for to string
+- Added support for importing Cupertino package
 - Added support for importing Material package (PR #2)
 - Added child logic to Stateless and Stateful widgets snippets (PR #3)
 
-### 1.0.5 
-Critical bug fixes:
-- Adjusted tab stops to improve efficiency and workflow 
-- Removed blank Containers from builders in favor of a tab stop with semi-colon
-- Added trailing comma at the end of child parameter
+### 1.0.5
+
+Critical bug fixes: - Adjusted tab stops to improve efficiency and workflow - Removed blank Containers from builders in favor of a tab stop with semi-colon - Added trailing comma at the end of child parameter
 
 ### 1.0.4
-- Fixed formatting 
-- Removed unused tabs
-- Corrected spelling errors 
 
+- Fixed formatting
+- Removed unused tabs
+- Corrected spelling errors
 
 ### 1.0.3
-Added support for: 
--  Stream
--  Sink
--  Inherited Widget
--  Mounted
--  NoSuchMethod
 
+Added support for: - Stream - Sink - Inherited Widget - Mounted - NoSuchMethod
 
-### 1.0.2 
-Added support for: 
--  Stateful Builder
--  Orientation Builder 
--  Layout Builder
--  Single Child Scroll View
--  Future Builder
+### 1.0.2
 
+Added support for: - Stateful Builder - Orientation Builder - Layout Builder - Single Child Scroll View - Future Builder
 
-## 1.0.1 
-Added support for: 
--  Stream Builder 
--  Animated Builder 
--  Custom Scroll View 
--  Listview.Builder
+## 1.0.1
+
+Added support for: - Stream Builder - Animated Builder - Custom Scroll View - Listview.Builder
 
 ### 1.0.0
-Initial release of Awesome Flutter Snippets 
+
+Initial release of Awesome Flutter Snippets
