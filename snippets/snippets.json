@@ -18,9 +18,9 @@
             "class ${1:name} extends StatefulWidget {",
             "  const ${1:name}({super.key});\n",
             "  @override",
-            "  State<${1:index}> createState() => _${1:WidgetName}State();",
+            "  State<${1:name}> createState() => _${1:name}State();",
             "}\n",
-            "class _${1:index}State extends State<${1:index}> {",
+            "class _${1:name}State extends State<${1:name}> {",
             "  @override",
             "  Widget build(BuildContext context) {",
             "    return Container();",
@@ -375,13 +375,13 @@
     },
     "Material Package": {
         "prefix": "importM",
-        "body": "import 'package:flutter/material.dart';",
-        "description": "Import flutter material package"
+        "body": "import 'package:material_ui/material_ui.dart';",
+        "description": "Import Material UI package"
     },
     "Cupertino Package": {
         "prefix": "importC",
-        "body": "import 'package:flutter/cupertino.dart';",
-        "description": "Import Flutter Cupertino package"
+        "body": "import 'package:cupertino_ui/cupertino_ui.dart';",
+        "description": "Import Cupertino UI package"
     },
     "flutter_test Package": {
         "prefix": "importFT",
@@ -397,7 +397,7 @@
         "prefix": "mateapp",
         "description": "Create a MaterialApp",
         "body": [
-            "import 'package:flutter/material.dart';",
+            "import 'package:material_ui/material_ui.dart';",
             "",
             "void main() => runApp(const MyApp());",
             "",
@@ -425,7 +425,7 @@
         "prefix": "cupeapp",
         "description": "Create a CupertinoApp",
         "body": [
-            "import 'package:flutter/cupertino.dart';",
+            "import 'package:cupertino_ui/cupertino_ui.dart';",
             "",
             "void main() => runApp(const MyApp());",
             "",
