@@ -6,6 +6,13 @@ All notable changes to this project will be documented in this file.
 
 ## [Changes]
 
+### 4.1.0
+
+- Update `importM` to `package:material_ui/material_ui.dart`
+- Update `importC` to `package:cupertino_ui/cupertino_ui.dart`
+- Update `mateapp` and `cupeapp` to use the new design packages
+- Fix `statefulW` class name placeholders for consistency
+
 ### 4.0.0
 
 - **Breaking: Change `testWdigets` to `f-testWidgets` to better align with function snippets**
